@@ -96,10 +96,13 @@ if selected_city:
     if selected_city == 'Korea':
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=7)
         key = 'F5F9EB65-7EB2-3029-AAA6-9A42370296AE'
-        layer = 'Satellite'
-        tile_type = 'jpeg'
-        tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
+        # layer = 'Satellite'
+        # tile_type = 'jpeg'
+        # tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
         attr = 'VWorld'
+        layer = 'Base'
+        tile_type = 'png'
+        tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
 
         my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level
                             # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
