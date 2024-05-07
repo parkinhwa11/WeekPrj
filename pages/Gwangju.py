@@ -121,17 +121,17 @@ intro = '''In 1951, it was located in the city center due to the construction of
 #추천 장소 4곳
 rec_place = ['Gwangju Stream', 'Sangmu Food Alley', 'Ssangam Park', 'Food Specialty Street in Geumho-dong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/dayul/gwangjucheon.jpg',
-                 'img/dayul/sangmujigu.png',
-                 'img/dayul/ssangam.jpg',
-                 'img/dayul/geumhomeokgori.jpeg']
+rec_place_img = ['img/dayul/광주천.jpg',
+                 'img/dayul/상무지구.jpg',
+                 'img/dayul/쌍암공원.jpg',
+                 'img/dayul/금호동.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Recently, Gwangju has become famous for its cherry blossom path, where cherry blossoms bloom first.',
                "Gwangju's culinary hub",
                'Nature and Culture in Gwangju',
                'A food-specialized street densely packed with restaurants located in Geumho-dong']
 # 관광지 Image
-image1 = 'img/dayul/uncheonjeosugi.jpg'
+image1 = 'img/dayul/운천저수지.jpg'
 #Wordcloud
 image2 = 'img/dayul/uncheonjeosujiwc.png'
 #파이차트 경로
