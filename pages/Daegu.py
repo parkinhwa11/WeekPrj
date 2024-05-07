@@ -200,9 +200,9 @@ rec_place = ['Geumho River Cherry Blossom Tunnel', 'Arte Suseong Land',
              'Jumunjin Breakwater', 'Jeongdongsimgok Badabuchae Trail']
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/dayul/geumhogang.jpg',
-                 'img/dayul/아르떼.JPG',
-                 'img/dayul/seongdangmok.jpg',
-                 'img/dayul/dongchon.jpg']
+                 'img/dayul/아르떼.jpg',
+                 'img/dayul/주문진방파제.jpg',
+                 'img/dayul/정동심곡.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is famous for its cherry blossoms.',
                'The first amusement park in Daegu',
