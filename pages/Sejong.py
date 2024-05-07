@@ -230,9 +230,9 @@ image2 = 'img/sujeong/세종/조치원테마거리 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/조치원테마거리.csv'
 #Positive 개수
-pos = 1
+pos = 0
 #Negative 개수
-neg = 1
+neg = 0
 #Bigram NetworkX Graph 이미지 첨부
 image3 = 'img/sujeong/세종/조치원테마거리그래프.png'
 
