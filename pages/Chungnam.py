@@ -128,7 +128,7 @@ rec_place = ['Royal Tomb of King Muryeong',
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/jongheok/충남/무령왕릉.jpg',
                  'img/jongheok/충남/공산성.jpg',
-                 'img/jongheok/충남/gyeryongsan.jpg',
+                 'img/jongheok/충남/계룡산.jpg',
                  'img/jongheok/충남/대천해수욕장.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an ancient 6th-century royal tomb known for its impressive design and treasures such as golden crowns.',
