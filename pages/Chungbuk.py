@@ -167,7 +167,7 @@ rec_place = ['Cheongju Hot Spring Spa',
 rec_place_img = ['img/jongheok/충북/청주온천스파.jpg',
                  'img/jongheok/충북/박달재자연휴양림.jpg',
                  'img/jongheok/충북/의림지.jpg',
-                 'img/jongheok/충북/제천 옥순봉 chuleongdari.jpg']
+                 'img/jongheok/충북/제천옥순봉출렁다리.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Spa',
                'A dense forest where pine trees and miscellaneous trees coexist for about 150 years is in harmony with the strange rock formations.',
