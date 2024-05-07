@@ -111,8 +111,8 @@ if selected_city:
         df = df[df['지자체'].str.contains(kor[selected_city][0])]
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=kor[selected_city][1])
         my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level,
-                            tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-                            attr='Stadia Maps'
+                            # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+                            # attr='Stadia Maps'
                             )
         for name, lat2, lon2 in zip(df['관광지'], df['위도'], df['경도']):
             folium.Marker([lat2, lon2],
