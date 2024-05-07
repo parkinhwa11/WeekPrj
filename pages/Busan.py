@@ -203,7 +203,7 @@ pos = 167
 #Negative 개수
 neg = 60
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/sujeong/부산/해운대해수욕장그래프.png'
+image3 = 'img/sujeong/부산/해운대해수욕장그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
