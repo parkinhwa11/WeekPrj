@@ -205,7 +205,7 @@ rec_place = ['Seoul Grand Park',
 #추천 장소 이미지 경로 4개
 rec_place_img = ['./img/jongheok/경기/서울대공원.jpg',
                  './img/jongheok/경기/어린이대공원.jpg',
-                 './img/jongheok/경기/퍼스트가든.bmp',
+                 './img/jongheok/경기/퍼스트가든.jpg',
                  './img/jongheok/경기/대부도.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The zoo has about 3,000 animals and has access to rose gardens, art galleries, and theme parks.',
