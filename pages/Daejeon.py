@@ -123,7 +123,7 @@ rec_place = ['Jangdong Forest Park', 'Buddong Reservoir', 'Gyeryongsan Fortress'
 rec_place_img = ['img/dayul/jangdongsanrim.jpg',
                  'img/dayul/beopdong.png',
                  'img/dayul/계족산성.jpg',
-                 'img/dayul/cheoldogwansachon.jpg']
+                 'img/dayul/대전역광장.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A place to relax and breathe in the fresh air of Gejoksan.",
                "Healing amidst windmills and blooming flowers by the water and nature",
