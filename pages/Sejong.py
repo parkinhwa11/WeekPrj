@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
-import matplotlib.pyplot as plt
+
+#import matplotlib.pyplot as plt
 import plotly.express as px
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
+
 
 st.header('Sejong')
 list = ['Sejong National Arboretum', 'Dodori Park', 'Gobok Reservoir', 'Jochiwon Theme Street', 'Sejong Attige']
@@ -107,19 +108,19 @@ def tabs(tabnum, name, googlelink, intro, image1, image2, data, pos, neg, image3
 
 # -------------------------(dict)-----------------------------
 dict1 = {
-    '금강수목원':['Geumgang Recreational Forest', 'img/수정/금강수목원.jpeg', "Geumgang Recreational Forest is different from other recreational forests. Rather than a dense forest with a trail, this forest has a variety of attractions such as the Forest Museum, an arboretum, greenhouse, pond, and wildlife park scattered on well-maintained roads, giving the impression of a city park."],
-    '베어트리파크':['Beartree Park', 'img/수정/베어트리파크.jpeg', "Beartree Park is a beautiful natural space in Sejong founded by entrepreneur Lee Jae-yeon. The park first started out as a private garden cared for by Lee personally."],
-    '밀마루전망대':['Milmaru Tower', 'img/수정/밀마루전망대.jpeg', "Located at the center of the Sejong Administrative Town, Milmaru Observatory is designed to provide a view of the city in every direction. You can see the ever-changing Sejong City at one glance as well as neighboring regions such as Gongju and Jochiwon."],
-    '조치원테마거리':[list[3], 'img/수정/조치원테마거리.jpeg', "Jochiwon Theme Street is a theme street created using the traditional market in Jochiwon-eup, Chungcheongnam-do. This is a place where you can feel the old atmosphere by reproducing the appearance of Jochiwon-eupseong Fortress during the Joseon Dynasty."],
-    '조치원역광장':['Jochiwon Station Square', 'img/수정/조치원역광장.jpeg', "Jochiwon Station, which resembles the Chinese character for a bird (bird), opened for business on January 1, 1905 as Botong Station on the Gyeongbu Line."],
-    '국립세종수목원':[list[0], 'img/수정/국립세종수목원.jpeg', "The Sejong National Arboretum, which is about to open as the first urban arboretum in Korea, was built on an area adjacent to the Sejong Government Complex. It is possible to see 2,834 species of 1.72 million plants (including 45,958 trees) under various themes such as the nation's largest four-season greenhouse, traditional Korean garden, Cheongryujiwon for study, and bonsai garden."],
-    '고복자연공원':['Gobok Natural Park', 'img/수정/고복자연공원.jpeg', "Gobok Natural Park spans an area of 1,840,000 square meters and nearby attractions include a forest, Yonggul Cave, Sinheungsa Temple, and an outdoor sculpture park on Obongsan Mountain."],
-    '도담동먹자골목':['Dodam-dong Food Alley', 'img/수정/도담동먹자골목.jpeg', "Dodam-dong Food Alley is one of the centers of the Dodam-dong commercial district. There is a wide range of delicious restaurants, from the 'Karim Avenue Hill Shopping Mall' backed by the Dodam-dong Fresh Market parking lot to the 'Shopping Mall in Doram Village Complex 7 and 8' to the 'Dodam-dong Food Alley' with Bangchukcheon in the background."],
-    '비학산':['Bihaksan Mountain', 'img/수정/비학산.jpeg', "Bihaksan Mountain, located in Geumnam-myeon, Sejong City, was named so because the mountain resembles a flying crane. The height of Bihaksan Mountain is 162.5m above sea level, and Ilchulbong Peak is also not very high at 228m, so it is a mountain that people of all ages and genders can easily go for a walk."],
-    '조천변벛꽃길':['Jocheonside cherry blossom road', 'img/수정/조천변벛꽃길.jpeg', "The cherry blossom road along Jocheon is a famous spot in Sejong City that many citizens visit every year. You can enjoy the beauty of spring by walking through the cherry blossom tunnel that stretches for several kilometers along the embankment."],
-    '고복저수지':[list[2], 'img/수정/고복저수지.jpeg', "Gobok Reservoir is located in the Gobok-ri and Yongam-ri areas of Yeonseo-myeon, Sejong Special Self-Governing City. There are restaurants and cafes specializing in duck meat dishes and catfish spicy stew scattered around the reservoir, and many tourists come to enjoy them on weekends."],
-    '세종미니멀주':['Sejong Minimal Zoo', 'img/수정/세종미니멀주.jpeg', "Sejong Minimal Zoo is an urban zoo where you can see, hear and interact with animals."],
-    '세종공룡월드':['Sejong Dinosaur World', 'img/수정/세종공룡월드.jpeg', 'Sejong Dinosaur World offers dinosaurs from the Jurassic period. Enjoy a realistic walking dinosaur show and a magic show at Asan Dinosaur World with 500 seats at a reasonable price.']
+    '금강수목원':['Geumgang Recreational Forest', 'img/sujeong/금강수목원.jpeg', "Geumgang Recreational Forest is different from other recreational forests. Rather than a dense forest with a trail, this forest has a variety of attractions such as the Forest Museum, an arboretum, greenhouse, pond, and wildlife park scattered on well-maintained roads, giving the impression of a city park."],
+    '베어트리파크':['Beartree Park', 'img/sujeong/베어트리파크.jpeg', "Beartree Park is a beautiful natural space in Sejong founded by entrepreneur Lee Jae-yeon. The park first started out as a private garden cared for by Lee personally."],
+    '밀마루전망대':['Milmaru Tower', 'img/sujeong/밀마루전망대.jpeg', "Located at the center of the Sejong Administrative Town, Milmaru Observatory is designed to provide a view of the city in every direction. You can see the ever-changing Sejong City at one glance as well as neighboring regions such as Gongju and Jochiwon."],
+    '조치원테마거리':[list[3], 'img/sujeong/조치원테마거리.jpeg', "Jochiwon Theme Street is a theme street created using the traditional market in Jochiwon-eup, Chungcheongnam-do. This is a place where you can feel the old atmosphere by reproducing the appearance of Jochiwon-eupseong Fortress during the Joseon Dynasty."],
+    '조치원역광장':['Jochiwon Station Square', 'img/sujeong/조치원역광장.jpeg', "Jochiwon Station, which resembles the Chinese character for a bird (bird), opened for business on January 1, 1905 as Botong Station on the Gyeongbu Line."],
+    '국립세종수목원':[list[0], 'img/sujeong/국립세종수목원.jpeg', "The Sejong National Arboretum, which is about to open as the first urban arboretum in Korea, was built on an area adjacent to the Sejong Government Complex. It is possible to see 2,834 species of 1.72 million plants (including 45,958 trees) under various themes such as the nation's largest four-season greenhouse, traditional Korean garden, Cheongryujiwon for study, and bonsai garden."],
+    '고복자연공원':['Gobok Natural Park', 'img/sujeong/고복자연공원.jpeg', "Gobok Natural Park spans an area of 1,840,000 square meters and nearby attractions include a forest, Yonggul Cave, Sinheungsa Temple, and an outdoor sculpture park on Obongsan Mountain."],
+    '도담동먹자골목':['Dodam-dong Food Alley', 'img/sujeong/도담동먹자골목.jpeg', "Dodam-dong Food Alley is one of the centers of the Dodam-dong commercial district. There is a wide range of delicious restaurants, from the 'Karim Avenue Hill Shopping Mall' backed by the Dodam-dong Fresh Market parking lot to the 'Shopping Mall in Doram Village Complex 7 and 8' to the 'Dodam-dong Food Alley' with Bangchukcheon in the background."],
+    '비학산':['Bihaksan Mountain', 'img/sujeong/비학산.jpeg', "Bihaksan Mountain, located in Geumnam-myeon, Sejong City, was named so because the mountain resembles a flying crane. The height of Bihaksan Mountain is 162.5m above sea level, and Ilchulbong Peak is also not very high at 228m, so it is a mountain that people of all ages and genders can easily go for a walk."],
+    '조천변벛꽃길':['Jocheonside cherry blossom road', 'img/sujeong/조천변벛꽃길.jpeg', "The cherry blossom road along Jocheon is a famous spot in Sejong City that many citizens visit every year. You can enjoy the beauty of spring by walking through the cherry blossom tunnel that stretches for several kilometers along the embankment."],
+    '고복저수지':[list[2], 'img/sujeong/고복저수지.jpeg', "Gobok Reservoir is located in the Gobok-ri and Yongam-ri areas of Yeonseo-myeon, Sejong Special Self-Governing City. There are restaurants and cafes specializing in duck meat dishes and catfish spicy stew scattered around the reservoir, and many tourists come to enjoy them on weekends."],
+    '세종미니멀주':['Sejong Minimal Zoo', 'img/sujeong/세종미니멀주.jpeg', "Sejong Minimal Zoo is an urban zoo where you can see, hear and interact with animals."],
+    '세종공룡월드':['Sejong Dinosaur World', 'img/sujeong/세종공룡월드.jpeg', 'Sejong Dinosaur World offers dinosaurs from the Jurassic period. Enjoy a realistic walking dinosaur show and a magic show at Asan Dinosaur World with 500 seats at a reasonable price.']
 }
 
 # --------------------------(국립세종수목원)-------------------------
@@ -138,7 +139,7 @@ rec_caption = [dict1['금강수목원'][2], dict1['베어트리파크'][2], dict
 # 관광지 Image
 image1 = dict1['국립세종수목원'][1]
 #Wordcloud
-image2 = 'img/수정/세종/국립세종수목원 워드클라우드.png'
+image2 = 'img/sujeong/세종/국립세종수목원 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/국립세종수목원.csv'
 #Positive 개수
@@ -146,7 +147,7 @@ pos = 172
 #Negative 개수
 neg = 65
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/세종/국립세종수목원그래프.png'
+image3 = 'img/sujeong/세종/국립세종수목원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -165,9 +166,9 @@ rec_place_img = [dict1['조치원테마거리'][1], dict1['금강수목원'][1],
 #추천 장소 설명 4개
 rec_caption = [dict1['조치원테마거리'][2], dict1['금강수목원'][2], dict1['조치원역광장'][2], dict1['국립세종수목원'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/도도리파크.jpeg'
+image1 = 'img/sujeong/도도리파크.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/세종/도도리파크 워드클라우드.png'
+image2 = 'img/sujeong/세종/도도리파크 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/도도리파크.csv'
 #Positive 개수
@@ -175,7 +176,7 @@ pos = 6
 #Negative 개수
 neg = 1
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/세종/도도리파크그래프.png'
+image3 = 'img/sujeong/세종/도도리파크그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -196,7 +197,7 @@ rec_caption = [dict1['고복자연공원'][2], dict1['금강수목원'][2], dict
 # 관광지 Image 1
 image1 = dict1['고복저수지'][1]
 #Wordcloud Image 2
-image2 = 'img/수정/세종/고복저수지 워드클라우드.png'
+image2 = 'img/sujeong/세종/고복저수지 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/고복저수지.csv'
 #Positive 개수
@@ -204,7 +205,7 @@ pos = 16
 #Negative 개수
 neg = 2
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/세종/고복저수지그래프.png'
+image3 = 'img/sujeong/세종/고복저수지그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -225,7 +226,7 @@ rec_caption = [dict1['조치원역광장'][2], dict1['조천변벛꽃길'][2], d
 # 관광지 Image 1
 image1 = dict1['조치원테마거리'][1]
 #Wordcloud Image 2
-image2 = 'img/수정/세종/조치원테마거리 워드클라우드.png'
+image2 = 'img/sujeong/세종/조치원테마거리 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/조치원테마거리.csv'
 #Positive 개수
@@ -233,7 +234,7 @@ pos = 1
 #Negative 개수
 neg = 1
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/세종/조치원테마거리그래프.png'
+image3 = 'img/sujeong/세종/조치원테마거리그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -252,9 +253,9 @@ rec_place_img = [dict1['세종미니멀주'][1], dict1['베어트리파크'][1],
 #추천 장소 설명 4개
 rec_caption = [dict1['세종미니멀주'][2], dict1['베어트리파크'][2], dict1['금강수목원'][2], dict1['세종공룡월드'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/아띠쥬.jpeg'
+image1 = 'img/sujeong/아띠쥬.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/세종/아띠쥬 워드클라우드.png'
+image2 = 'img/sujeong/세종/아띠쥬 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/아띠쥬.csv'
 #Positive 개수
@@ -262,7 +263,10 @@ pos = 10
 #Negative 개수
 neg = 3
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/세종/아띠쥬그래프.png'
+image3 = 'img/sujeong/세종/아띠쥬그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)
+
+
+

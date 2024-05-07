@@ -107,17 +107,17 @@ def tabs(tabnum, name, googlelink, intro, image1, image2, data, pos, neg, image3
 
 # -------------------------(dict)-----------------------------
 dict1 = {
-    '월미테마파크' : ['Wolmi Theme Park ', 'img/수정/월미테마파크.jpeg', 'Wolmi Theme Park is located on Wolmido Island in Incheon. Spanning 13,200 square meters, it features various amusement rides including a ferris wheel, swing boat, and go-karts.'],
-    '영종도' : ['Yeongjongdo Island', 'img/수정/영종도.webp', 'Yeongjongdo Island, combined with Yongyudo and Sammokdo Islands through land reclamation work, connects to the mainland via Yeongjongdaegyo Bridge and is located 3 kilometers northwest of Yeonan Pier, Incheon.'],
-    '인천차이나타운' : ['Incheon Chinatown','img/수정/인천차이나타운.jpeg', "Incheon's Chinatown came into being with the opening of Incheon Port in 1883 and Incheon's designation as an extraterritoriality of the Ching dynasty in the following year."],
-    '마시안해변' : ['Masian Beach', 'img/수정/마시안해변.bmp',"Located in the vicinity of Incheon International Airport, Masian Beach is unique in that it offers visitors an opportunity to experience both wetland and a sandy beach at the same time. When the tide is low, visitors will be fascinated by the distinctive co-existence of endless black wetland and the ivory sandy beach."],
-    '송월동동화마을' : ['Songwol-dong Fairy Tale Village ', 'img/수정/송월동동화마을.jpeg', "Songwol-dong was named for its view of the moon between the pine forest. The opening of Incheon Port in 1883 led to the start of many foreigners coming into the area for settlement, and it turned into a rich village."],
-    '소래산': ['Soraesan Mountain ','img/수정/소래산.jpeg',"Soraesan Mountain, with an altitude of 299 meters, is situated between Siheung and Incheon. Its name 'Sorae' originates from the area's old name, reflecting its rich heritage. The scenic mountain features a forest park, badminton courts, basketball courts, futsal fields, and various other amenities."],
-    '소래습지생태공원': ['Sorae Marsh Ecological Park','img/수정/소래습지생태공원.jpeg',"Sorae Marsh Ecological Park is located on a vast plot of land in Incheon. The walking paths by the salt storage and the windmill are especially popular photo points. Many people visit in fall for the shimmering silver grass, said to appear in many colors depending on the lighting."],
-    '강화도':['Ganghwado Island','img/수정/강화도.webp', "Ganghwado Island, off the west coast, is the fifth largest island in Korea. The island was connected to the mainland in 1970 with the construction of the Ganghwagyo Bridge."],
-    '원인재':['Woninjae','img/수정/원인재.jpeg', "Woninjae is the place to guard the tomb site of Lee Heo-gyeom, founder of the Incheon Lee clan, and hold memorial services. It is known to have been established in the early 1800s and has been designated as the fifth Incheon Cultural Property."],
-    '월미도':['Wolmido Island', 'img/수정/월미도.jpeg' ,"Wolmido Island has very few historical records, despite being the location of a temporary palace, built in 1653 during the reign of King Hyojong. On weekends and holidays, people flock to Wolmido Island to enjoy coffee and fresh seafood at the cafes and restaurants overlooking the sea."],
-    '을왕리해수욕장':['Eurwang-ri Beach', 'img/수정/을왕리해수욕장.png', "Eurwang-ri Beach, located in Jung-gu, Incheon, was designated as a National Tourist Site in 1986. Approximately 700 meters in length with an average depth of only 1.5 meters, the beautiful white sand beach is known for amazing sunsets."]
+    '월미테마파크' : ['Wolmi Theme Park ', 'img/sujeong/월미테마파크.jpeg', 'Wolmi Theme Park is located on Wolmido Island in Incheon. Spanning 13,200 square meters, it features various amusement rides including a ferris wheel, swing boat, and go-karts.'],
+    '영종도' : ['Yeongjongdo Island', 'img/sujeong/영종도.webp', 'Yeongjongdo Island, combined with Yongyudo and Sammokdo Islands through land reclamation work, connects to the mainland via Yeongjongdaegyo Bridge and is located 3 kilometers northwest of Yeonan Pier, Incheon.'],
+    '인천차이나타운' : ['Incheon Chinatown','img/sujeong/인천차이나타운.jpeg', "Incheon's Chinatown came into being with the opening of Incheon Port in 1883 and Incheon's designation as an extraterritoriality of the Ching dynasty in the following year."],
+    '마시안해변' : ['Masian Beach', 'img/sujeong/마시안해변.bmp',"Located in the vicinity of Incheon International Airport, Masian Beach is unique in that it offers visitors an opportunity to experience both wetland and a sandy beach at the same time. When the tide is low, visitors will be fascinated by the distinctive co-existence of endless black wetland and the ivory sandy beach."],
+    '송월동동화마을' : ['Songwol-dong Fairy Tale Village ', 'img/sujeong/송월동동화마을.jpeg', "Songwol-dong was named for its view of the moon between the pine forest. The opening of Incheon Port in 1883 led to the start of many foreigners coming into the area for settlement, and it turned into a rich village."],
+    '소래산': ['Soraesan Mountain ','img/sujeong/소래산.jpeg',"Soraesan Mountain, with an altitude of 299 meters, is situated between Siheung and Incheon. Its name 'Sorae' originates from the area's old name, reflecting its rich heritage. The scenic mountain features a forest park, badminton courts, basketball courts, futsal fields, and various other amenities."],
+    '소래습지생태공원': ['Sorae Marsh Ecological Park','img/sujeong/소래습지생태공원.jpeg',"Sorae Marsh Ecological Park is located on a vast plot of land in Incheon. The walking paths by the salt storage and the windmill are especially popular photo points. Many people visit in fall for the shimmering silver grass, said to appear in many colors depending on the lighting."],
+    '강화도':['Ganghwado Island','img/sujeong/강화도.webp', "Ganghwado Island, off the west coast, is the fifth largest island in Korea. The island was connected to the mainland in 1970 with the construction of the Ganghwagyo Bridge."],
+    '원인재':['Woninjae','img/sujeong/원인재.jpeg', "Woninjae is the place to guard the tomb site of Lee Heo-gyeom, founder of the Incheon Lee clan, and hold memorial services. It is known to have been established in the early 1800s and has been designated as the fifth Incheon Cultural Property."],
+    '월미도':['Wolmido Island', 'img/sujeong/월미도.jpeg' ,"Wolmido Island has very few historical records, despite being the location of a temporary palace, built in 1653 during the reign of King Hyojong. On weekends and holidays, people flock to Wolmido Island to enjoy coffee and fresh seafood at the cafes and restaurants overlooking the sea."],
+    '을왕리해수욕장':['Eurwang-ri Beach', 'img/sujeong/을왕리해수욕장.png', "Eurwang-ri Beach, located in Jung-gu, Incheon, was designated as a National Tourist Site in 1986. Approximately 700 meters in length with an average depth of only 1.5 meters, the beautiful white sand beach is known for amazing sunsets."]
         }
 
 # --------------------------(월미도)-------------------------
@@ -134,9 +134,9 @@ rec_place_img = [dict1['월미테마파크'][1], dict1['영종도'][1], dict1['�
 #추천 장소 설명 4개
 rec_caption = [dict1['월미테마파크'][2], dict1['영종도'][2], dict1['인천차이나타운'][2], dict1['마시안해변'][2]]
 # 관광지 Image
-image1 = 'img/수정/월미도.jpeg'
+image1 = 'img/sujeong/월미도.jpeg'
 #Wordcloud
-image2 = 'img/수정/인천/월미도 워드클라우드.png'
+image2 = 'img/sujeong/인천/월미도 워드클라우드.png'
 #파이차트 경로
 data = 'data/인천/월미도.csv'
 #Positive 개수
@@ -144,7 +144,7 @@ pos = 59
 #Negative 개수
 neg = 37
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/인천/월미도그래프.png'
+image3 = 'img/sujeong/인천/월미도그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -163,9 +163,9 @@ rec_place_img = [dict1['송월동동화마을'][1], dict1['월미도'][1], dict1
 #추천 장소 설명 4개
 rec_caption = [dict1['송월동동화마을'][2], dict1['월미도'][2], dict1['월미테마파크'][2], dict1['영종도'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/인천차이나타운.jpeg'
+image1 = 'img/sujeong/인천차이나타운.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/인천/인천차이나타운 워드클라우드.png'
+image2 = 'img/sujeong/인천/인천차이나타운 워드클라우드.png'
 #파이차트 경로
 data = 'data/인천/인천차이나타운.csv'
 #Positive 개수
@@ -173,7 +173,7 @@ pos = 104
 #Negative 개수
 neg = 60
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/인천/인천차이나타운그래프.png'
+image3 = 'img/sujeong/인천/인천차이나타운그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -192,9 +192,9 @@ rec_place_img = [dict1['소래산'][1], dict1['소래습지생태공원'][1], di
 #추천 장소 설명 4개
 rec_caption = [dict1['소래산'][2], dict1['소래습지생태공원'][2], dict1['강화도'][2], dict1['원인재'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/인천대공원.jpeg'
+image1 = 'img/sujeong/인천대공원.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/인천/인천대공원 워드클라우드.png'
+image2 = 'img/sujeong/인천/인천대공원 워드클라우드.png'
 #파이차트 경로
 data = 'data/인천/인천대공원.csv'
 #Positive 개수
@@ -202,7 +202,7 @@ pos = 81
 #Negative 개수
 neg = 32
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/인천/인천대공원그래프.png'
+image3 = 'img/sujeong/인천/인천대공원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -221,9 +221,9 @@ rec_place_img = [dict1['월미도'][1], dict1['송월동동화마을'][1], dict1
 #추천 장소 설명 4개
 rec_caption = [dict1['월미도'][2], dict1['송월동동화마을'][2], dict1['인천차이나타운'][2], dict1['을왕리해수욕장'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/월미테마파크.jpeg'
+image1 = 'img/sujeong/월미테마파크.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/인천/월미테마파크 워드클라우드.png'
+image2 = 'img/sujeong/인천/월미테마파크 워드클라우드.png'
 #파이차트 경로
 data = 'data/인천/월미테마파크.csv'
 #Positive 개수
@@ -231,7 +231,7 @@ pos = 17
 #Negative 개수
 neg = 11
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/인천/월미테마파크그래프.png'
+image3 = 'img/sujeong/인천/월미테마파크그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -250,9 +250,9 @@ rec_place_img = [dict1['인천차이나타운'][1], dict1['월미도'][1], dict1
 #추천 장소 설명 4개
 rec_caption = [dict1['인천차이나타운'][2], dict1['월미도'][2], dict1['월미테마파크'][2], dict1['영종도'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/송월동동화마을.jpeg'
+image1 = 'img/sujeong/송월동동화마을.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/인천/송월동동화마을 워드클라우드.png'
+image2 = 'img/sujeong/인천/송월동동화마을 워드클라우드.png'
 #파이차트 경로
 data = 'data/인천/송월동동화마을.csv'
 #Positive 개수
@@ -260,7 +260,7 @@ pos = 17
 #Negative 개수
 neg = 8
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/인천/송월동동화마을그래프.png'
+image3 = 'img/sujeong/인천/송월동동화마을그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

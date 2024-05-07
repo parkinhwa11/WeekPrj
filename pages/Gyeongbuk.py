@@ -121,7 +121,7 @@ intro = '''The name Jeongjeong is recorded in Samguk Sagi (History of the Three 
 #추천 장소 4곳
 rec_place = ['Donggung Palace and Wolji Pond', 'Cheonmachong', 'Bomun Tourist Complex', 'Bomunjeong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/dongpalace.jpg', 'img/인화/cheonma.jpg', 'img/인화/bomun.jpg', 'img/인화/bomunjeong.jpg']
+rec_place_img = ['img/inhwa/dongpalace.jpg', 'img/inhwa/cheonma.jpg', 'img/inhwa/bomun.jpg', 'img/inhwa/bomunjeong.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Announcement time: 09:00 - 22:00 (ticket date 21:30), short break\
                         Fee: Adults 3,000 won / 2,000 won / Children 1,000 won',
@@ -134,9 +134,9 @@ rec_caption = ['Announcement time: 09:00 - 22:00 (ticket date 21:30), short brea
                        Cherry trees and maple trees are planted around the octagonal pavilion and two ponds, \
                        making it a place to enjoy the scenery in any season.']
 # 관광지 Image
-image1 = 'img/인화/woljeong_bridge.jpg'
+image1 = 'img/inhwa/woljeong_bridge.jpg'
 #Wordcloud
-image2 = 'img/인화/월정교 워드클라우드.png'
+image2 = 'img/inhwa/월정교 워드클라우드.png'
 #파이차트 경로
 data = 'data/경북/월정교.csv'
 
@@ -150,7 +150,7 @@ neg_cnt = 43
 # neg = 43
 
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/월정교그래프.png'
+image3 = 'img/inhwa/월정교그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -171,7 +171,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Cheomseongdae', 'Bomunho Lake', 'Woljeonggyo Bridge', 'Daereungwon']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/cheom.jpg', 'img/인화/bomunlake.jpg', 'img/인화/woljeong_bridge.jpg', 'img/인화/daer.jpg']
+rec_place_img = ['img/inhwa/cheom.jpg', 'img/inhwa/bomunlake.jpg', 'img/inhwa/woljeong_bridge.jpg', 'img/inhwa/daer.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an astronomical observatory from the Silla period that observed the movement of celestial bodies.',
                 'Bomun Lake, a huge artificial lake measuring 500,000 pyeong',
@@ -182,9 +182,9 @@ rec_caption = ['It is an astronomical observatory from the Silla period that obs
                 Admission fee: Free (Cheonmachong Tomb paid)\
                 Parking: Daereungwon public parking lot (9 Gyerim-ro, paid), Nodong public parking lot (767 Taejong-ro, paid), Jjoksae temporary parking lot (Enter Wonhwa-ro 181beon-gil, free)']
 # 관광지 Image 1
-image1 = 'img/인화/hwanglidan.jpg'
+image1 = 'img/inhwa/hwanglidan.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/황리단길 워드클라우드.png'
+image2 = 'img/inhwa/황리단길 워드클라우드.png'
 #파이차트 경로
 data = 'data/경북/황리단길.csv'
 #Positive 개수
@@ -192,7 +192,7 @@ pos = 193
 #Negative 개수
 neg = 117
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/황리단길그래프.png'
+image3 = 'img/inhwa/황리단길그래프.png'
 # 영어 후기
 # Its a great place for walking lots of coffee shops and fun snacks Downside it is usually very crowded
 
@@ -215,7 +215,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Cheonmachong', 'Cheomseongdae', 'Woljeonggyo Bridge', 'Bomunjeong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/cheonma.jpg', 'img/인화/cheom.jpg', 'img/인화/woljeong_bridge.jpg', 'img/인화/bomunjeong.jpg']
+rec_place_img = ['img/inhwa/cheonma.jpg', 'img/inhwa/cheom.jpg', 'img/inhwa/woljeong_bridge.jpg', 'img/inhwa/bomunjeong.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Operating hours 09:00-22:00\
                         Admission fee: Adults 3,000 / Soldiers, Youth 2,000 / Children 1,000',
@@ -227,9 +227,9 @@ rec_caption = ['Operating hours 09:00-22:00\
                        Cherry trees and maple trees are planted around the octagonal pavilion and two ponds, \
                        making it a place to enjoy the scenery in any season.']
 # 관광지 Image 1
-image1 = 'img/인화/daer.jpg'
+image1 = 'img/inhwa/daer.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/대릉원 워드클라우드.png'
+image2 = 'img/inhwa/대릉원 워드클라우드.png'
 #파이차트 경로
 data = 'data/경북/대릉원.csv'
 #Positive 개수
@@ -237,7 +237,7 @@ pos = 164
 #Negative 개수
 neg = 33
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/대릉원그래프.png'
+image3 = 'img/inhwa/대릉원그래프.png'
 # 영어 후기
 # Nice area Very beautiful place / good
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
@@ -258,7 +258,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Woljeonggyo Bridge','Daereungwon','Donggung Palace and Wolji Pond','Cheonmachong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/woljeong_bridge.jpg', 'img/인화/daer.jpg', 'img/인화/dongpalace.jpg', 'img/인화/cheonma.jpg']
+rec_place_img = ['img/inhwa/woljeong_bridge.jpg', 'img/inhwa/daer.jpg', 'img/inhwa/dongpalace.jpg', 'img/inhwa/cheonma.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Opening hours: 09:00-22:00\
                        Admission fee: Free\
@@ -271,9 +271,9 @@ rec_caption = ['Opening hours: 09:00-22:00\
                        'Operating hours 09:00-22:00\
                         Admission fee: Adults 3,000 / Soldiers, Youth 2,000 / Children 1,000']
 # 관광지 Image 1
-image1 = 'img/인화/cheom.jpg'
+image1 = 'img/inhwa/cheom.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/첨성대 워드클라우드.png'
+image2 = 'img/inhwa/첨성대 워드클라우드.png'
 #파이차트 경로
 data = 'data/경북/첨성대.csv'
 #Positive 개수
@@ -281,7 +281,7 @@ pos = 173
 #Negative 개수
 neg = 75
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/첨성대그래프.png'
+image3 = 'img/inhwa/첨성대그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -302,7 +302,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Space Walk','Pohang Maritime skywalk','Chilpo Beach','Pohang--Songdo Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/spacewalk.jpg', 'img/인화/pohangsky.jpg', 'img/인화/chilpo.jpg', 'img/인화/pohangsongdo.jpg']
+rec_place_img = ['img/inhwa/spacewalk.jpg', 'img/inhwa/pohangsky.jpg', 'img/inhwa/chilpo.jpg', 'img/inhwa/pohangsongdo.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The Space Walk, located in Pohang Hwanhwa Park, was built with a track length of 333m and a number of stairs of 717.',
                 'The height is 7m and the total length is 463m.\
@@ -311,9 +311,9 @@ rec_caption = ['The Space Walk, located in Pohang Hwanhwa Park, was built with a
                 'Chilpo Beach, located 13km north of Pohang, was opened early as a beach with a wide white sand beach and clear, shallow water.',
                 'Songdo Beach was a representative beach in Gyeongsangbuk-do, but was closed due to worsening erosion of the white sand beach, and has been redeveloped as a tourist destination since 2012.']
 # 관광지 Image 1
-image1 = 'img/인화/youngildae.jpg'
+image1 = 'img/inhwa/youngildae.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/영일대해수욕장 워드클라우드.png'
+image2 = 'img/inhwa/영일대해수욕장 워드클라우드.png'
 #파이차트 경로
 data = 'data/경북/영일대해수욕장.csv'
 #Positive 개수
@@ -321,7 +321,7 @@ pos = 56
 #Negative 개수
 neg = 14
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/영일대해수욕장그래프.png'
+image3 = 'img/inhwa/영일대해수욕장그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

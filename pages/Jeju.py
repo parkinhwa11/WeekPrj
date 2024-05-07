@@ -123,16 +123,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Seongsan Sunrise Peak', 'Sanbangsan Mountain', 'Yongduam Rock', 'Seopjikoji']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/성산일출봉.jpg', 'img/인화/산방산.jpg', 'img/인화/용두암.jpg', 'img/인화/섭지코지.jpg']
+rec_place_img = ['img/inhwa/성산일출봉.jpg', 'img/inhwa/산방산.jpg', 'img/inhwa/용두암.jpg', 'img/inhwa/섭지코지.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Seongsan Ilchulbong, unlike other volcanic cones on Jeju Island, is a water-based volcano formed when magma erupts from under the water.',
                 'As you drive through the southwestern part of Jeju, you can see Sanbangsan Mountain, a landmark in Sagye-ri, Andeok-myeon, which boasts the grandeur of a huge sculpture.',
                 'It was named Yongduam after the shape of a dragon rising from the sea in a roar.',
                 'Seopjikoji, which juts out on the eastern coast of Jeju, has spectacular coastal scenery with Seongsan Ilchulbong in the background.']
 # 관광지 Image
-image1 = 'img/인화/스누피가든.jpg'
+image1 = 'img/inhwa/스누피가든.jpg'
 #Wordcloud
-image2 = 'img/인화/스누피가든 워드클라우드.png'
+image2 = 'img/inhwa/스누피가든 워드클라우드.png'
 #파이차트 경로
 data = 'data/제주/스누피가든.csv'
 #Positive 개수
@@ -140,7 +140,7 @@ pos_cnt = 735
 #Negative 개수
 neg_cnt = 386
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/스누피가든그래프.png'
+image3 = 'img/inhwa/스누피가든그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -160,16 +160,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Hyeopjae Beach', 'Gimnyeong Beach', 'Geumneung Beach', 'Gwakji Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/협재해수욕장.jpg', 'img/인화/김녕해수욕장.jpg', 'img/인화/금능해수욕장.jpg', 'img/인화/곽지해수욕장.jpg']
+rec_place_img = ['img/inhwa/협재해수욕장.jpg', 'img/inhwa/김녕해수욕장.jpg', 'img/inhwa/금능해수욕장.jpg', 'img/inhwa/곽지해수욕장.jpg']
 #추천 장소 설명 4개
 rec_caption = ['If you were asked to choose a beach worth visiting on the west side of Jeju Island, Hyeopjae Beach would be ranked first and second.',
                 'It was made of sand piled on top of a huge rock called lava, and Seongsegi is meant to be a small castle to prevent invasion by foreign powers.',
                 'Clear water that shows through the bottom, shallow water with the sea water lapping at you, and even a hot shower to enjoy after playing in the water. If you are looking for a beach with the best conditions for visiting with children, Geumneung Beach is the perfect place.',
                 'Gwakji Beach is a beach with good conditions, including a 350m long, 70m wide white sand beach, an average water depth of 1.5m, and a slope of 5 to 8 degrees.']
 # 관광지 Image 1
-image1 = 'img/인화/함덕해수욕장.jpg'
+image1 = 'img/inhwa/함덕해수욕장.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/함덕해수욕장 워드클라우드.png'
+image2 = 'img/inhwa/함덕해수욕장 워드클라우드.png'
 #파이차트 경로
 data = 'data/제주/함덕해수욕장.csv'
 #Positive 개수
@@ -177,7 +177,7 @@ pos_cnt = 271
 #Negative 개수
 neg_cnt = 86
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/함덕해수욕장그래프.png'
+image3 = 'img/inhwa/함덕해수욕장그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -198,7 +198,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Jeju Camellia Arboretum', 'Camellia Forest', 'Jeju Herb Garden', 'Sanbangsan Mountain']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/제주동백수목원.jpg', 'img/인화/동백포레스트.jpg', 'img/인화/제주허브동산.jpg', 'img/인화/산방산.jpg']
+rec_place_img = ['img/inhwa/제주동백수목원.jpg', 'img/inhwa/동백포레스트.jpg', 'img/inhwa/제주허브동산.jpg', 'img/inhwa/산방산.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Jeju Camellia Arboretum gives you a feeling of the tropics with camellias that are green throughout the year, unknown birds chirping each season, and citrus orchards full of abundance.',
                 'There are beautifully blooming camellia flowers, a stone wall surrounding the colony, and chairs arranged around the trees, making it a great place to take pictures.',
@@ -206,9 +206,9 @@ rec_caption = ['Jeju Camellia Arboretum gives you a feeling of the tropics with 
                 'As you drive through the southwestern part of Jeju, you can see Sanbangsan Mountain, a landmark in Sagye-ri, Andeok-myeon, which boasts the grandeur of a huge sculpture.',
                ]
 # 관광지 Image 1
-image1 = 'img/인화/카멜리아힐.jpg'
+image1 = 'img/inhwa/카멜리아힐.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/카멜리아힐 워드클라우드.png'
+image2 = 'img/inhwa/카멜리아힐 워드클라우드.png'
 #파이차트 경로
 data = 'data/제주/카멜리아힐.csv'
 #Positive 개수
@@ -216,7 +216,7 @@ pos_cnt = 412
 #Negative 개수
 neg_cnt = 237
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/카멜리아힐그래프.png'
+image3 = 'img/inhwa/카멜리아힐그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -238,16 +238,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Seopjikoji','Sanbangsan Mountain','Yongduam Rock','Cheonjiyeon Waterfall']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/섭지코지.jpg', 'img/인화/산방산.jpg', 'img/인화/용두암.jpg', 'img/인화/천지연폭포.jpg']
+rec_place_img = ['img/inhwa/섭지코지.jpg', 'img/inhwa/산방산.jpg', 'img/inhwa/용두암.jpg', 'img/inhwa/천지연폭포.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Seopjikoji, which juts out on the eastern coast of Jeju, has spectacular coastal scenery with Seongsan Ilchulbong in the background.',
                 'As you drive through the southwestern part of Jeju, you can see Sanbangsan Mountain, a landmark in Sagye-ri, Andeok-myeon, which boasts the grandeur of a huge sculpture.',
                 'It was named Yongduam after the shape of a dragon rising from the sea in a roar.',
                 'Cheonjiyeon means a pond where heaven and earth meet. The length of the waterfall is 22m and the depth of the pond below is 20m, so it is truly called the pond where heaven and earth meet.']
 # 관광지 Image 1
-image1 = 'img/인화/성산일출봉.jpg'
+image1 = 'img/inhwa/성산일출봉.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/성산일출봉 워드클라우드.png'
+image2 = 'img/inhwa/성산일출봉 워드클라우드.png'
 #파이차트 경로
 data = 'data/제주/성산일출봉.csv'
 #Positive 개수
@@ -255,7 +255,7 @@ pos_cnt = 218
 #Negative 개수
 neg_cnt = 131
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/성산일출봉그래프.png'
+image3 = 'img/inhwa/성산일출봉그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -274,16 +274,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Jeju Camellia Arboretum','Namwon Keuneong Coast ','Saryeoni-Supgil','Camellia Hill']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/제주동백수목원.jpg', 'img/인화/남원큰엉해변.jpg', 'img/인화/사려니숲길.jpg', 'img/인화/카멜리아힐.jpg']
+rec_place_img = ['img/inhwa/제주동백수목원.jpg', 'img/inhwa/남원큰엉해변.jpg', 'img/inhwa/사려니숲길.jpg', 'img/inhwa/카멜리아힐.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Jeju Camellia Arboretum gives you a feeling of the tropics with camellias that are green throughout the year, unknown birds chirping each season, and citrus orchards full of abundance.',
                 'Eong means ‘hill’ in the Jeju Island dialect. Namwon Keuneong is so named because it is a hill with a large rock with its mouth wide open as if swallowing the sea. The top of the cliff is flat and covered with soft grass.',
                 'Saryeoni Forest Trail is one of Jeju\'s 31 hidden scenic spots. It is a forest path filled with cedar trees that starts from Bijarim-ro and passes through Mulchat Oreum and Saryeoni Oreum.',
                 'Camellia Hill is the largest camellia arboretum in the East, where you can see over 500 varieties of camellia flowers.']
 # 관광지 Image 1
-image1 = 'img/인화/동백포레스트.jpg'
+image1 = 'img/inhwa/동백포레스트.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/동백포레스트 워드클라우드.png'
+image2 = 'img/inhwa/동백포레스트 워드클라우드.png'
 #파이차트 경로
 data = 'data/제주/동백포레스트.csv'
 #Positive 개수
@@ -291,7 +291,7 @@ pos_cnt = 138
 #Negative 개수
 neg_cnt = 66
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/동백포레스트그래프.png'
+image3 = 'img/inhwa/동백포레스트그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

@@ -126,19 +126,19 @@ rec_place = ['Royal Tomb of King Muryeong',
              'Gyeryongsan Mountain',
              'Daecheon Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/종혁/충남/무령왕릉.jpg',
-                 'img/종혁/충남/공산성.jpg',
-                 'img/종혁/충남/계룡산.jpg',
-                 'img/종혁/충남/대천해수욕장.jpg']
+rec_place_img = ['img/jongheok/충남/무령왕릉.jpg',
+                 'img/jongheok/충남/공산성.jpg',
+                 'img/jongheok/충남/gyeryongsan.jpg',
+                 'img/jongheok/충남/대천해수욕장.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an ancient 6th-century royal tomb known for its impressive design and treasures such as golden crowns.',
                'Located in the middle of a mountain overlooking the river and downtown Gongju, it is a centuries-old Baekje-era fortress.',
                'A trail runs between the famous ridges and the waterfalls and rock zones of the national park.',
                'The mud festival is held every year, and the sanded beach is 3.5km long and there are many shops selling snacks.']
 # 관광지 Image
-image1 = 'img/종혁/충남/공주한옥마을.jpg'
+image1 = 'img/jongheok/충남/공주한옥마을.jpg'
 #Wordcloud
-image2 = 'img/종혁/충남/공주한옥마을 워드클라우드.png'
+image2 = 'img/jongheok/충남/공주한옥마을 워드클라우드.png'
 #파이차트 경로
 data = 'data/충남/공주한옥마을.csv'
 #Positive 개수
@@ -146,7 +146,7 @@ pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/종혁/충남/공주한옥마을 그래프.png'
+image3 = 'img/jongheok/충남/공주한옥마을 그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -165,19 +165,19 @@ rec_place = ['Royal Tomb of King Muryeong',
              'Gyeryongsan Mountain',
              'Baekje Cultural Complex']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/종혁/충남/무령왕릉.jpg',
-                 'img/종혁/충남/공주한옥마을.jpg',
-                 'img/종혁/충남/계룡산.jpg',
-                 'img/종혁/충남/백제문화단지.jpg']
+rec_place_img = ['img/jongheok/충남/무령왕릉.jpg',
+                 'img/jongheok/충남/공주한옥마을.jpg',
+                 'img/jongheok/충남/gyeryongsan.jpg',
+                 'img/jongheok/충남/백제문화단지.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an ancient 6th-century royal tomb known for its impressive design and treasures such as golden crowns.',
                'Gongju Hanok Village is located between the Gongju Songsan-ri Tomb and the Gongju National Museum. ',
                'A trail runs between the famous ridges and the waterfalls and rock zones of the national park.',
                'It is a historical park that shows life during the Baekje period, and its castles, towers, and temples have been rebuilt.']
 # 관광지 Image
-image1 = 'img/종혁/충남/공산성.jpg'
+image1 = 'img/jongheok/충남/공산성.jpg'
 #Wordcloud
-image2 = 'img/종혁/충남/공산성 워드클라우드.png'
+image2 = 'img/jongheok/충남/공산성 워드클라우드.png'
 #파이차트 경로
 data = 'data/충남/공산성.csv'
 #Positive 개수
@@ -185,7 +185,7 @@ pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/종혁/충남/공산성 그래프.png'
+image3 = 'img/jongheok/충남/공산성 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -207,19 +207,19 @@ rec_place = ['Haemi Town Wall',
              'Yonghyeon National Recreation Forest',
              'Beolcheonpo Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/종혁/충남/해미읍성.jpg',
-                 'img/종혁/충남/무령왕릉.jpg',
-                 'img/종혁/충남/국립용현자연휴양림.jpg',
-                 'img/종혁/충남/벌천포해수욕장.jpg']
+rec_place_img = ['img/jongheok/충남/해미읍성.jpg',
+                 'img/jongheok/충남/무령왕릉.jpg',
+                 'img/jongheok/충남/국립용현자연휴양림.jpg',
+                 'img/jongheok/충남/벌천포해수욕장.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Built in 1491, it is a stone fortress of the Joseon Dynasty and is a sacred place for Korean Catholics.',
                "Also called Seosan Maae Samjonbul, it is a cultural asset and art work that allows you to feel what Baekje's smile is like, carved on a rock around the 7th century, the late Baekje period.",
                'In the recreational forest, where the valley water is clear and clean, and oak trees are dense, there are accommodation facilities such as forest culture and recreation centers, campgrounds, and forest classes.',
                'The surroundings are quiet and the natural scenery is beautiful, so many people spend their vacations enjoying camping in the pine field every summer.']
 # 관광지 Image
-image1 = 'img/종혁/충남/유기방가옥.jpg'
+image1 = 'img/jongheok/충남/유기방가옥.jpg'
 #Wordcloud
-image2 = 'img/종혁/충남/유기방가옥 워드클라우드.png'
+image2 = 'img/jongheok/충남/유기방가옥 워드클라우드.png'
 #파이차트 경로
 data = 'data/충남/유기방가옥.csv'
 #Positive 개수
@@ -227,7 +227,7 @@ pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/종혁/충남/유기방가옥 그래프.png'
+image3 = 'img/jongheok/충남/유기방가옥 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -247,10 +247,10 @@ rec_place = ['Mallipo Beach',
              'Mongsanpo Beach',
              'Paduri Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/종혁/충남/만리포해수욕장.jpg',
-                 'img/종혁/충남/천리포수목원.jpg',
-                 'img/종혁/충남/몽산포해수욕장.jpg',
-                 'img/종혁/충남/파도리해수욕장.jpg']
+rec_place_img = ['img/jongheok/충남/만리포해수욕장.jpg',
+                 'img/jongheok/충남/천리포수목원.jpg',
+                 'img/jongheok/충남/몽산포해수욕장.jpg',
+                 'img/jongheok/충남/파도리해수욕장.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It has a large sandy beach, so you can enjoy swimming and sunbathing, and you can rent parasols and use nearby restaurants.',
                'As an arboretum next to the sea, there are not only native plants but also exotic plants such as magnolia and colorful maple trees.',
@@ -258,9 +258,9 @@ rec_caption = ['It has a large sandy beach, so you can enjoy swimming and sunbat
                'There is a line of rugged black seashore rocks next to the white sand beach, and the beach is covered with small and pretty hailstones.']
 
 # 관광지 Image
-image1 = 'img/종혁/충남/청산 수목원.jpg'
+image1 = 'img/jongheok/충남/청산 수목원.jpg'
 #Wordcloud
-image2 = 'img/종혁/충남/청산 수목원 워드클라우드.png'
+image2 = 'img/jongheok/충남/청산 수목원 워드클라우드.png'
 #파이차트 경로
 data = 'data/충남/청산 수목원.csv'
 #Positive 개수
@@ -268,7 +268,7 @@ pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/종혁/충남/청산 수목원 그래프.png'
+image3 = 'img/jongheok/충남/청산 수목원 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -288,19 +288,19 @@ rec_place = ['Onyang Hot Spring',
              'Mediterranean Village',
              'Paradise Spa Dogo']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충남/온양온천.jpg',
-                 './img/종혁/충남/아산스파비스.jpg',
-                 './img/종혁/충남/지중해마을.jpg',
-                 './img/종혁/충남/파라다이스스파도고.jpg']
+rec_place_img = ['./img/jongheok/충남/온양온천.jpg',
+                 './img/jongheok/충남/아산스파비스.jpg',
+                 './img/jongheok/충남/지중해마을.jpg',
+                 './img/jongheok/충남/파라다이스스파도고.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The original bath of Onyang Hot Spring is a bathhouse called Sincheon bath located around the market, and the foot bath is located at the entrance of Onyang Traditional Market and below the bridge of Onyang Hot Spring Station.',
                "Unlike existing simple hot spring facilities, it is a new concept themed hot spring using Korea's first hot spring water, and there are hydrated bed pool, kids pool for children, and outdoor hot spring pool that can be used for all seasons.",
                'The Mediterranean Village is a place reminiscent of a small rural village in the Mediterranean Sea, where exotic European-style buildings gather.',
                'Paradise Spa DOGO, designated as a health hot spring, is a large recreational facility opened by Paradise Group in Asan, Chungcheongnam-do, the home of hot springs.']
 # 관광지 Image
-image1 = 'img/종혁/충남/온양온천랜드.jpg'
+image1 = 'img/jongheok/충남/온양온천랜드.jpg'
 #Wordcloud
-image2 = 'img/종혁/충남/온양온천랜드 워드클라우드.png'
+image2 = 'img/jongheok/충남/온양온천랜드 워드클라우드.png'
 #파이차트 경로
 data = 'data/충남/온양온천랜드.csv'
 #Positive 개수
@@ -308,6 +308,6 @@ pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/종혁/충남/온양온천랜드 그래프.png'
+image3 = 'img/jongheok/충남/온양온천랜드 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

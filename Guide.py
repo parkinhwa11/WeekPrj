@@ -123,7 +123,7 @@ st.header("🌟 Additional Features")
 col1, col2 = st.columns(2)
 with col1:
     col1.metric("Keyword Analysis", "Cloud Image")
-    st.image("img/다율/상소동산림욕장 워드클라우드.png", width=350)
+    st.image("img/dayul/sangsodongsanrimwc.png", width=350)
     st.markdown("""
                 The Keyword Analysis feature generates a Word Cloud visualizing the frequency of words in a text corpus. 
                 It provides a quick overview of the most commonly used words, allowing users to identify prominent 
@@ -153,7 +153,7 @@ with col3:
 
 with col4:
     col4.metric("Bigram NetworkX Graph", "Graph Image")
-    st.image("img/다율/스파크랜드그래프.png", width=350)
+    st.image("img/dayul/sparklandgraph.png", width=350)
     st.markdown("""
                 The Bigram NetworkX Graph visualizes the co-occurrence of words in a corpus using a graph structure. 
                 It helps to identify patterns and relationships between words based on their proximity and frequency 

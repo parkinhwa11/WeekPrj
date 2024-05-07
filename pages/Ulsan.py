@@ -120,16 +120,16 @@ intro = '''Ganwoljae is a place where the ridges of Mt. Sinbulsan and Mt. Ganwol
 #추천 장소 4곳
 rec_place = ['Silver Grass Plain', 'Yeongchuksan Mountain', 'Sinbulsan Falls National Recreational Forest', 'Jujeon Pebble Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/억새평원.jpg', 'img/다율/영축산.jpg', 'img/다율/폭포.jpg', 'img/다율/주전몽돌해변.jpg']
+rec_place_img = ['img/dayul/eoksaepyeongwon.jpg', 'img/dayul/youngchuksan.jpg', 'img/dayul/pokpo.jpg', 'img/dayul/jujeonmongdolbeach.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Ulju County Park, is the nation's premier silver grass plain, renowned for its beauty.",
                "Stunning scenery, renowned hiking spot in Gajisan Provincial Park.",
                "Silver grass fields and refreshing waterfalls make it a relaxing forest retreat.",
                "Black pebble beach with soothing waves"]
 # 관광지 Image
-image1 = 'img/다율/간월재.jpg'
+image1 = 'img/dayul/ganwolje.jpg'
 #Wordcloud
-image2 = 'img/다율/간월재 워드클라우드.png'
+image2 = 'img/dayul/ganwoljewc.png'
 #파이차트 경로
 data = 'data/울산/간월재.csv'
 #Positive 개수
@@ -137,7 +137,7 @@ pos_cnt = 31
 #Negative 개수
 neg_cnt = 23
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/간월재그래프.png'
+image3 = 'img/dayul/ganwoljegraph.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -156,17 +156,17 @@ intro = '''Wow Zoo is a unique cafe in Ulsan Metropolitan City, where you can in
 #추천 장소 4곳
 rec_place = ['Canyon Park', 'Ulsan Grand Park Zoo', 'Ulsan Theme Botanical Arboretum', 'Gangdong Pebble Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/캐니언파크.png', 'img/다율/울산대공원.jpg',
-                 'img/다율/울산테마식물원.jpg', 'img/다율/강동몽돌해변.jpg']
+rec_place_img = ['img/dayul/canionpark.png', 'img/dayul/울산대공원.jpg',
+                 'img/dayul/ulsantema.jpg', 'img/dayul/gandongmondolbeach.jpg']
 #추천 장소 설명 4개
 rec_caption = ["An indoor zoo where visitors can experience feeding animals.",
                "A place to learn about the beauty of animals and nature while fostering a love for them.",
                "An eco-friendly arboretum utilizing natural ecological forests.",
                "A beautiful seaside with cute pebbles and clear blue waters."]
 # 관광지 Image
-image1 = 'img/다율/와우쥬.jpg'
+image1 = 'img/dayul/wowzoo.jpg'
 #Wordcloud
-image2 = 'img/다율/와우쥬 본점 워드클라우드.png'
+image2 = 'img/dayul/wowzoowc.png'
 #파이차트 경로
 data = 'data/울산/와우쥬본점.csv'
 #Positive 개수
@@ -174,7 +174,7 @@ pos_cnt = 32
 #Negative 개수
 neg_cnt = 22
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/와우쥬본점그래프.png'
+image3 = 'img/dayul/wowzoograph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -203,16 +203,16 @@ intro = '''Yeongnam Alps is formed by mountains with an elevation of over 1,000 
 #추천 장소 4곳
 rec_place = ['Cheonhwangsan', 'GaJi Mountain Provincial Park', 'Jakcheongjeong Valley', 'Jinha Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/천황산.jpg', 'img/다율/가지산.jpg', 'img/다율/작천정계곡.jpg', 'img/다율/진하.jpg']
+rec_place_img = ['img/dayul/cheonghwangsan.jpg', 'img/dayul/gajisan.jpg', 'img/dayul/jakcheon.jpg', 'img/dayul/jinha.jpg']
 #추천 장소 설명 4개
 rec_caption = ["The central peak of the Yeongnam Alps, Cheonhwangsan (main peak: Sajabong)",
                "A beautiful place with vast silver grass fields exuding the atmosphere of autumn",
                "Jakcheongjeong Valley: A picturesque landscape created by clear water and white rocks",
                "A place where body and mind heal amidst gentle waves"]
 # 관광지 Image
-image1 = 'img/다율/영남알프스.jpg'
+image1 = 'img/dayul/youngnamalphs.jpg'
 #Wordcloud
-image2 = ('img/다율/영남알프스 워드클라우드.png')
+image2 = ('img/dayul/youngnamalphswc.png')
 #파이차트 경로
 data = 'data/울산/영남알프스.csv'
 #Positive 개수
@@ -220,7 +220,7 @@ pos_cnt = 32
 #Negative 개수
 neg_cnt = 22
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/영남알프스그래프.png'
+image3 = 'img/dayul/youngnamalphsgraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -241,16 +241,16 @@ intro = '''Taehwagang Donggulpia has transformed several artificial caves create
 rec_place = ['Taehwa River National Garden', 'Taehwa River Silver Grass Field', 'Jangsaengpo Whale Cultural Village',
              'Daewangam Park Suspension Bridge']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/태화강국가정원.jpg', 'img/다율/억새군락지.jpg', 'img/다율/장생포.jpg', 'img/다율/출렁다리.jpg']
+rec_place_img = ['img/dayul/taehwaganggukga.jpg', 'img/dayul/eoksaegunrakzi.jpg', 'img/dayul/jangsaenpo.jpg', 'img/dayul/chuleongdari.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A themed garden with six themes located along the Taehwa River in Ulsan",
                "A silver grass field illuminated in golden hues by the setting sun",
                "The only whale-themed cultural tourism facility in Korea",
                "Thrillingly Enjoy the Spectacular View of Daewangam"]
 # 관광지 Image
-image1 = 'img/다율/동굴피아.jpg'
+image1 = 'img/dayul/dongulpia.jpg'
 #Wordcloud
-image2 = 'img/다율/태화강동굴피아 워드클라우드.png'
+image2 = 'img/dayul/taehwagangdongulwc.png'
 #파이차트 경로
 data = 'data/울산/태화강동굴피아.csv'
 #Positive 개수
@@ -258,7 +258,7 @@ pos_cnt = 26
 #Negative 개수
 neg_cnt = 15
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/태화강동굴피아그래프.png'
+image3 = 'img/dayul/taehwagangdongulgraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -278,16 +278,16 @@ intro = '''Amethyst Cavern Park is the largest man-made cave tourist attraction 
 #추천 장소 4곳
 rec_place = ['Ilsan Beach', 'Ulsan Bridge Observatory', 'Myeongseon Island', 'Wishing Mailbox at Ganjeolgot']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['img/다율/일산해수욕장.jpg', 'img/다율/울산대교.jpg', 'img/다율/명선도.png', 'img/다율/소망우체통.jpg']
+rec_place_img = ['img/dayul/ilsanbeach.jpg', 'img/dayul/ulsandaegyo.jpg', 'img/dayul/myeongseondo.png', 'img/dayul/소망우체통.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A Sea with Diverse Charms",
                "Landmark with a View of Ulsan",
                "A picturesque night view with fantastic media art",
                "A must-see landmark where you'll definitely want to take a photo!"]
 # 관광지 Image
-image1 = 'img/다율/자수정동굴나라.jpg'
+image1 = 'img/dayul/jasujeongdongulnara.jpg'
 #Wordcloud
-image2 = 'img/다율/자수정동굴나라 워드클라우드.png'
+image2 = 'img/dayul/jasujeongwc.png'
 #파이차트 경로
 data = 'data/울산/자수정동굴나라.csv'
 #Positive 개수
@@ -295,6 +295,6 @@ pos_cnt = 75
 #Negative 개수
 neg_cnt = 40
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/자수정동굴나라그래프.png'
+image3 = 'img/dayul/jasujeonggraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

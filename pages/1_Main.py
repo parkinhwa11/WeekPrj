@@ -36,7 +36,7 @@ locs = {
     'Jeju' : [33.364805, 126.542671]}
 
 kor = { 'Seoul' : ['서울', 11], 'Incheon' : ['인천', 11],
-    'Gwangju' : ['광주', 11], 'Daegu' : ['대구', 11],
+    'Gwangju' : ['광주', 11], 'Daegu' : ['daegu', 11],
     'Ulsan' : ['울산', 11], 'Daejeon' : ['대전', 11],
     'Busan' : ['부산', 11], 'Gyeonggi-do' : ['경기도', 9],
     'Sejong': ['세종', 11], 'Gangwon' : ['강원', 9],

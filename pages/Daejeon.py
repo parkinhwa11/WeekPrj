@@ -120,19 +120,19 @@ intro = '''Sangso-dong Forest Park is located at the point where the foothills o
 #추천 장소 4곳
 rec_place = ['Jangdong Forest Park', 'Buddong Reservoir', 'Gyeryongsan Fortress', 'Railway Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/장동산림욕장.jpg',
-                 'img/다율/법동소류지.png',
-                 'img/다율/계족산성.jpg',
-                 'img/다율/철도관사촌.jpg']
+rec_place_img = ['img/dayul/jangdongsanrim.jpg',
+                 'img/dayul/beopdong.png',
+                 'img/dayul/계족산성.jpg',
+                 'img/dayul/cheoldogwansachon.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A place to relax and breathe in the fresh air of Gejoksan.",
                "Healing amidst windmills and blooming flowers by the water and nature",
                "Traces of fierce competition between Silla and Baekje",
                "A village holding historical value from the modern and contemporary era"]
 # 관광지 Image
-image1 = 'img/다율/상소동산림욕장.jpg'
+image1 = 'img/dayul/sangsodongsanrim.jpg'
 #Wordcloud
-image2 = 'img/다율/상소동산림욕장 워드클라우드.png'
+image2 = 'img/dayul/sangsodongsanrimwc.png'
 #파이차트 경로
 data = 'data/대전/상소동산림욕장.csv'
 #Positive 개수
@@ -140,7 +140,7 @@ pos_cnt = 28
 #Negative 개수
 neg_cnt = 5
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/상소동산림욕장 그래프.png'
+image3 = 'img/dayul/sangsodongsanrimgraph.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -165,19 +165,19 @@ intro = '''Daejeon O-World was established when the Daejeon Zoo and Joy Land, an
 #추천 장소 4곳
 rec_place = ['Tinolja Animal Park', 'Euneungjeongi Cultural Street', 'Daejeon Skyroad', 'Bomunsanseong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/티놀자.jpg',
-                 'img/다율/으능정이.jpg',
-                 'img/다율/스카이로드.jpeg',
-                 'img/다율/보문산성.jpg']
+rec_place_img = ['img/dayul/tnolja.jpg',
+                 'img/dayul/eneungjeongi.jpg',
+                 'img/dayul/skyroad.jpeg',
+                 'img/dayul/bomunsansung.jpg']
 #추천 장소 설명 4개
 rec_caption = ["An animal park where you can interact with animals",
                "A cultural and artistic street known as the Myeongdong of Daejeon",
                "Installing a 214m x 13m arcade with multimedia video screens for spectacular shows.",
                "It is speculated to have been built during the intense battles between the late Baekje and Silla periods."]
 # 관광지 Image
-image1 = 'img/다율/오월드.jpg'
+image1 = 'img/dayul/oworld.jpg'
 #Wordcloud
-image2 = 'img/다율/대전오월드 워드클라우드.png'
+image2 = 'img/dayul/daejeonoworldwc.png'
 #파이차트 경로
 data = 'data/대전/대전오월드.csv'
 #Positive 개수
@@ -185,7 +185,7 @@ pos_cnt = 118
 #Negative 개수
 neg_cnt = 65
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/대전오월드 그래프.png'
+image3 = 'img/dayul/daejeonoworldgraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -204,16 +204,16 @@ intro = '''Jangtaesan Recreational Forest consists of a dense forest of ginkgo t
 #추천 장소 4곳
 rec_place = ['Gyejoksan Red Clay Trail', 'Daejeon EXPO Plaza', 'Bomunsan Observatory', 'Daedong Mural Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/황톳길.jpg', 'img/다율/엑스포.jpg', 'img/다율/보문산전망대.jpeg', 'img/다율/대동벽화마을.jpg']
+rec_place_img = ['img/dayul/황톳길.jpg', 'img/dayul/xpo.jpg', 'img/dayul/bomunsanjeongmangdae.jpeg', 'img/dayul/daedong.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Let's go trekking barefoot",
                "A space to enjoy cultural activities, leisure, and sports together",
                "Romantic night views in the heart of downtown Daejeon",
                "Known as Daejeon's iconic Dal Dong neighborhood"]
 # 관광지 Image
-image1 = 'img/다율/장태산자연휴양림.jpg'
+image1 = 'img/dayul/jangtaesanhu.jpg'
 #Wordcloud
-image2 = 'img/다율/장태산자연휴양림 워드클라우드.png'
+image2 = 'img/dayul/jangtaesanhuwc.png'
 #파이차트 경로
 data = 'data/대전/장태산자연휴양림.csv'
 #Positive 개수
@@ -221,7 +221,7 @@ pos_cnt = 107
 #Negative 개수
 neg_cnt = 41
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/장태산자연휴양림 그래프.png'
+image3 = 'img/dayul/jangtaesanhugraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -241,16 +241,16 @@ intro = '''The National Daejeon Forest Wellness Center, a leading forest welfare
 #추천 장소 4곳
 rec_place = ['Bomunsan Forest Healing Center', 'Healing Forest', 'Palgong Reservoir', 'Gyeryongsan Sutonggol Valley']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/보문산숲길.jpg', 'img/다율/치유의숲.jpg', 'img/다율/팔공저수지.jpg', 'img/다율/계령산.jpg']
+rec_place_img = ['img/dayul/bonmunsansupkil.jpg', 'img/dayul/supofheal.jpg', 'img/dayul/palgongjeosuji.jpg', 'img/dayul/계령산.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Experience nature's positive energy and heal both body and mind through forest therapy.",
                "A healing sanctuary for body and mind, nestled in nature.",
                "Transformed into an ecological relaxation space",
                "A scenic trail unfolds with beautiful valleys and picturesque mountains, resembling silk threads."]
 # 관광지 Image
-image1 = 'img/다율/숲체원.jpeg'
+image1 = 'img/dayul/supchewon.jpeg'
 #Wordcloud
-image2 = 'img/다율/국립대전숲체원 워드클라우드.png'
+image2 = 'img/dayul/gukripdaejeonchewonwc.png'
 #파이차트 경로
 data = 'data/대전/국립대전숲체원.csv'
 #Positive 개수
@@ -258,7 +258,7 @@ pos_cnt = 17
 #Negative 개수
 neg_cnt = 7
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/국립대전숲체원 그래프.png'
+image3 = 'img/dayul/gukripdaejeonchewongraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -279,16 +279,16 @@ intro = '''Hanbat Arboretum, linked with the Government Complex-Daejeon and Scie
 #추천 장소 4곳
 rec_place = ['Maninsan Recreational Forest', 'Sikjangsan Cultural Park', 'Gabcheon', 'Daecheongho Lake']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['img/다율/만인산2.jpg', 'img/다율/식장산.jpg', 'img/다율/갑천.jpg', 'img/다율/대청호.jpg']
+rec_place_img = ['img/dayul/maninsan2.jpg', 'img/dayul/sikjangsan.jpg', 'img/dayul/gapcheon.jpg', 'img/dayul/daecheongho.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A place to relax while enjoying the natural scenery.",
                "Daejeon's prominent tourist attraction known for its New Year sunrise event",
                "A place where you can enjoy exercise amidst beautiful scenery",
                "The waterway connecting Daejeon and Cheongju"]
 # 관광지 Image
-image1 = 'img/다율/한밭수목원.jpg'
+image1 = 'img/dayul/hanbatsumokwon.jpg'
 #Wordcloud
-image2 = 'img/다율/한밭수목원 워드클라우드.png'
+image2 = 'img/dayul/hanbatsumokwon.png'
 #파이차트 경로
 data = 'data/대전/한밭수목원.csv'
 #Positive 개수
@@ -296,6 +296,6 @@ pos_cnt = 85
 #Negative 개수
 neg_cnt = 40
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/한밭수목원 그래프.png'
+image3 = 'img/dayul/hanbatsumokwongraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

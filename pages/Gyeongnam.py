@@ -125,7 +125,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Suseungdae Tourist Site', 'Baekdu Mountain Cheonji Hot Springs', 'Gyeongsangnam-do Arboretum', 'jeodo-island']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/수승대관광지.jpg', 'img/인화/백두산천지온천.jpg', 'img/인화/경남수목원.jpg', 'img/인화/저도.jpg']
+rec_place_img = ['img/inhwa/수승대관광지.jpg', 'img/inhwa/백두산천지온천.jpg', 'img/inhwa/경남수목원.jpg', 'img/inhwa/저도.jpg']
 #추천 장소 설명 4개
 rec_caption = ['- Auto camping site 14:00 ~ 13:00 the next day \
                 - 2nd auto camping site 14:00 ~ 13:00 the next day \
@@ -139,9 +139,9 @@ rec_caption = ['- Auto camping site 14:00 ~ 13:00 the next day \
                 Parking information: Free',
                 'Cruise ship contact information - Geoje Jeodo Cruise Co., Ltd. ☎ 055-636-7033/3002, website http://www.jeodo.co.kr']
 # 관광지 Image
-image1 = 'img/인화/거창창포원.jpg'
+image1 = 'img/inhwa/거창창포원.jpg'
 #Wordcloud
-image2 = 'img/인화/거창창포원 워드클라우드.png'
+image2 = 'img/inhwa/거창창포원 워드클라우드.png'
 #파이차트 경로
 data = 'data/경남/거창창포원.csv'
 #Positive 개수
@@ -149,7 +149,7 @@ pos_cnt = 40
 #Negative 개수
 neg_cnt = 11
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/거창창포원그래프.png'
+image3 = 'img/inhwa/거창창포원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -176,7 +176,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Maritime Filming Location', 'Sancheong Hwangmaesan Mountain', 'Thousand Buddha Tower', 'Hill of Wind']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/해양드라마.jpg', 'img/인화/황매산.jpg', 'img/인화/천불천탑.jpg', 'img/인화/바람의언덕.jpg']
+rec_place_img = ['img/inhwa/해양드라마.jpg', 'img/inhwa/황매산.jpg', 'img/inhwa/천불천탑.jpg', 'img/inhwa/바람의언덕.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The marine drama set is a travel destination that takes you back to the Gaya period in a time machine.\
                 Operating hours: 09:00~18:00 Summer season 09:00~17:00 Winter season',
@@ -184,9 +184,9 @@ rec_caption = ['The marine drama set is a travel destination that takes you back
                 '10,000 won (wish ribbon / once a year)',
                 'It was the filming location for the TV dramas "The Painter of Eve" (2003), "Carousel" (2004), and the movie "Palm Forest" (2005).']
 # 관광지 Image 1
-image1 = 'img/인화/합천영상테마파크.jpg'
+image1 = 'img/inhwa/합천영상테마파크.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/합천영상테마파크 워드클라우드.png'
+image2 = 'img/inhwa/합천영상테마파크 워드클라우드.png'
 #파이차트 경로
 data = 'data/경남/합천영상테마파크.csv'
 #Positive 개수
@@ -194,7 +194,7 @@ pos_cnt = 42
 #Negative 개수
 neg_cnt = 30
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/합천영상테마파크그래프.png'
+image3 = 'img/inhwa/합천영상테마파크그래프.png'
 #영어 후기
 # nice place to go to refreshing
 
@@ -222,7 +222,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Gwangam Beach', 'Mageumsan Wontang Boyang Hot Springs', 'Baekdu Mountain Cheonji Hot Springs', 'Lotte Water Park']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/광암해수욕장.jpg', 'img/인화/마금산온천.jpg', 'img/인화/백두산천지온천.jpg', 'img/인화/롯데워터파크.jpg']
+rec_place_img = ['img/inhwa/광암해수욕장.jpg', 'img/inhwa/마금산온천.jpg', 'img/inhwa/백두산천지온천.jpg', 'img/inhwa/롯데워터파크.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Gwangam Beach, the only beach in Changwon City\
                 Admission fee: Free',
@@ -238,9 +238,9 @@ rec_caption = ['Gwangam Beach, the only beach in Changwon City\
                 - All-day ticket: Adults 75,000 won / Children 61,000 won\
                 - Afternoon ticket: Adults 68,000 won / Children 56,000 won']
 # 관광지 Image 1
-image1 = 'img/인화/스파더스페이스.jpg'
+image1 = 'img/inhwa/스파더스페이스.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/스파더스페이스 워드클라우드.png'
+image2 = 'img/inhwa/스파더스페이스 워드클라우드.png'
 #파이차트 경로
 data = 'data/경남/스파더스페이스.csv'
 #Positive 개수
@@ -248,7 +248,7 @@ pos_cnt = 89
 #Negative 개수
 neg_cnt = 57
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/스파더스페이스그래프.png'
+image3 = 'img/inhwa/스파더스페이스그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -267,16 +267,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Dipirang','Tongyeong Cable Car',' SKYLINE Luge Tongyeong','Undersea Tunnel']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/디피랑.jpg', 'img/인화/통영케이블.jpg', 'img/인화/스카이라인루지.jpg', 'img/인화/해저터널.jpg']
+rec_place_img = ['img/inhwa/디피랑.jpg', 'img/inhwa/통영케이블.jpg', 'img/inhwa/스카이라인루지.jpg', 'img/inhwa/해저터널.jpg']
 #추천 장소 설명 4개
 rec_caption = ['On a pitch-black night, when a large moon rises in the sky, the erased murals of Mural Village come to life at the top of the mountain! We invite you to the mysterious festival of murals that were liberated from Mt. Nammang’s Dipirang.',
                 'The Tongyeong Cable Car installed on Mireuksan Mountain in Tongyeong is Korea\'s only bi-cable automatic circulation gondola system installed using the latest Swiss technology, and its length of 1975m is the longest among cable cars for general tourists in Korea.',
                 'Many people gather to ride sleds in Tongyeong, a southern city full of warm spring energy. This is to ride the ‘Skyline Luge’, which can only be enjoyed in 6 places around the world. Luge is an amusement facility where you ride a specially designed cart without a special power device and run on a track using only the slope of the ground and gravity.',
                 'The Tongyeong Undersea Tunnel is an undersea tunnel built to connect Tongyeong and Mireukdo Island. It is the first underwater tunnel in Asia, built over a period of 1 year and 4 months from 1931 to 1932, and is 483m long, 5m wide, and 3.5m high.']
 # 관광지 Image 1
-image1 = 'img/인화/동피랑.jpg'
+image1 = 'img/inhwa/동피랑.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/동피랑벽화마을 워드클라우드.png'
+image2 = 'img/inhwa/동피랑벽화마을 워드클라우드.png'
 #파이차트 경로
 data = 'data/경남/동피랑벽화마을.csv'
 #Positive 개수
@@ -284,7 +284,7 @@ pos_cnt = 90
 #Negative 개수
 neg_cnt = 38
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/동피랑벽화마을그래프.png'
+image3 = 'img/inhwa/동피랑벽화마을그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -303,7 +303,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Geoje Panoramic Cable Car','Tongyeong Cable Car','Sacheon Sea Cable Car','Hadong Cable Car']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/인화/거제케이블.jpg', 'img/인화/통영케이블.jpg', 'img/인화/사천케이블.jpg', 'img/인화/하동케이블.jpg']
+rec_place_img = ['img/inhwa/거제케이블.jpg', 'img/inhwa/통영케이블.jpg', 'img/inhwa/사천케이블.jpg', 'img/inhwa/하동케이블.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Geoje Panorama Cable Car is a 1.56km cable car that connects Hakdong Pass to the summit of Nojasan Mountain.\
                 From the upper observatory, you can enjoy a 360-degree view of Nojasan Mountain and Dadohae without boundaries.',
@@ -311,9 +311,9 @@ rec_caption = ['Geoje Panorama Cable Car is a 1.56km cable car that connects Hak
                 'Sacheon Sea Cable Car is famous as Korea\'s first cable car that connects the sea, islands, and mountains, allowing you to enjoy both the mountains and the sea at the same time.',
                 'The cable car is the best landmark in Hadong, offering a panoramic view of the pristine Namhae Hallyeohaesang National Park. A trail has been created near the summit of Geumosan Mountain, allowing visitors to enjoy nature through leisurely walks and attractions.']
 # 관광지 Image 1
-image1 = 'img/인화/스카이라인루지.jpg'
+image1 = 'img/inhwa/스카이라인루지.jpg'
 #Wordcloud Image 2
-image2 = 'img/인화/스카이라인 루지 통영 워드클라우드.png'
+image2 = 'img/inhwa/스카이라인 루지 통영 워드클라우드.png'
 #파이차트 경로
 data = 'data/경남/스카이라인 루지 통영.csv'
 #Positive 개수
@@ -321,7 +321,7 @@ pos_cnt = 90
 #Negative 개수
 neg_cnt = 38
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/인화/스카이라인루지통영그래프.png'
+image3 = 'img/inhwa/스카이라인루지통영그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

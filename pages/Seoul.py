@@ -107,19 +107,19 @@ def tabs(tabnum, name, googlelink, intro, image1, image2, data, pos, neg, image3
 
 # -------------------------(dict)-----------------------------
 dict1 = {
-        '경복궁': ['Gyeongbokgung', 'img/수정/경복궁.webp', 'Gyeongbokgung Palace was built as the official palace of the Joseon dynasty by Yi Seong-gye, who becomes King Taejo and the founder of the new regime. Gyeongbokgung Palace is arguably the most beautiful and is the largest of all five palaces.'],
-        '서울어린이대공원' : ["Seoul Children's Grand Park", 'img/수정/서울어린이대공원.jpeg', 'Opened in May 1973, Seoul Children’s Grand Park is a theme park situated among green forests and fields with a total area of 56,552㎡. It contains a zoo, arboretum, amusement park, and performance venues.'],
-        '청계천' : ['Cheonggyecheon Stream', 'img/수정/청계천.jpeg', 'Cheonggyecheon Stream is accessible from the square through stairs on the left and Cheonggye Trail on the right.  spectacular sight is created by three-color lights illuminating the fountains and a two-tiered waterfall coming down from a height of four meters.'],
-        '남산서울타워' : ['Namsan Seoul Tower', 'img/수정/남산서울타워.jpeg', "Namsan Seoul Tower was the first multipurpose tower to be established in Korea, effectively incorporating a sightseeing observatory to a broadcasting tower. The tower's observatory offers an unobstructed view of the whole city, allowing it to become one of the all-time favorite attractions of Seoul citizens as well as domestic and international tourists."],
-        '석촌호수' : ['Seokchonhosu Lake', 'img/수정/석촌호수.jpeg', "Songpa Naru Park, also commonly referred to as Seokchonhosu Lake, is a citizen park in Seoul with a jogging course and walking trails."],
-        '서울스카이' : ['Lotte World Tower SEOUL SKY', 'img/수정/서울스카이.jpeg', "SEOUL SKY is located on floors 117-123 of Lotte World Tower, the nation's tallest and the world's fifth tallest building. The observatory offers a panoramic view of the entire capital city, beautiful both day and night."],
-        '서촌한옥마을': ['Seochon Village', 'img/수정/서촌마을.jpeg', "Seochon Village is the name given to the area to the west of Gyeongbokgung Palace. It is a historic village, home to old shops and hanok buildings that have stood the test of time."],
-        '덕수궁': ['Deoksugung Palace', 'img/수정/덕수궁.jpeg', "Registered as Historic Site No. 124, Deoksugung Palace was initially not a royal palace, but a residential home of Grand Prince Wolsan (1454-1488), the older brother of King Seongjong (1469-1494) of the Joseon dynasty."],
-        '광화문': ['Gwanghwamun', 'img/수정/광화문.webp', "Built in 1395 under the reign of King Taejo, the first king of the Joseon dynasty, Gwanghwamun Gate is the southern gate of Gyeongbokgung Palace. It is also the main gate of the palace, therefore larger and fancier in comparison to the other gates."],
-        '창덕궁': ['Changdeokgung Palace', 'img/수정/창덕궁.jpeg', " [UNESCO World Heritage Site] Changdeokgung Palace was the second royal villa built following the construction of Gyeongbokgung Palace in 1405. It was the principal palace for many kings of the Joseon dynasty, and is the most well-preserved of the five remaining royal Joseon palaces."],
-        '송리단길': ['Songnidan-gil Street', 'img/수정/송리단길.jpeg', "Located south of the eastern side of Seokchon Lake, this street is home to numerous restaurants and cafes. Today’s “Songnidan-gil Street” came to be as cafes moved into the neighborhood, followed by restaurants and photography studios."],
-        '롯데월드 어드벤처': ['Lotte World', 'img/수정/롯데월드.png', 'Operated by Lotte Group, Lotte World is the perfect spot for entertainment and sightseeing for Koreans and international tourists alike. The theme park is divided into the indoor Lotte World Adventure, and the outdoor lakeside Magic Island, with additional amenities including a shopping mall, folk museum, ice rink, hotel, and more.'],
-        '우리유황온천': ['Our Sulfur Hot Springs', 'img/수정/우리유황온천.jpeg', "Our Sulfur Hot Springs supplies natural sulfur hot spring water of 32.6 degrees Celsius from 1,040 meters underground every day. Centered around the main hot spring bath where you can take a sulfur hot spring bath, there is a salt room where you can take a salt compress, a crypt room, a sitz bath, a snack bar, and a sports massage room."],
+        '경복궁': ['Gyeongbokgung', 'img/sujeong/경복궁.webp', 'Gyeongbokgung Palace was built as the official palace of the Joseon dynasty by Yi Seong-gye, who becomes King Taejo and the founder of the new regime. Gyeongbokgung Palace is arguably the most beautiful and is the largest of all five palaces.'],
+        '서울어린이대공원' : ["Seoul Children's Grand Park", 'img/sujeong/서울어린이대공원.jpeg', 'Opened in May 1973, Seoul Children’s Grand Park is a theme park situated among green forests and fields with a total area of 56,552㎡. It contains a zoo, arboretum, amusement park, and performance venues.'],
+        '청계천' : ['Cheonggyecheon Stream', 'img/sujeong/청계천.jpeg', 'Cheonggyecheon Stream is accessible from the square through stairs on the left and Cheonggye Trail on the right.  spectacular sight is created by three-color lights illuminating the fountains and a two-tiered waterfall coming down from a height of four meters.'],
+        '남산서울타워' : ['Namsan Seoul Tower', 'img/sujeong/남산서울타워.jpeg', "Namsan Seoul Tower was the first multipurpose tower to be established in Korea, effectively incorporating a sightseeing observatory to a broadcasting tower. The tower's observatory offers an unobstructed view of the whole city, allowing it to become one of the all-time favorite attractions of Seoul citizens as well as domestic and international tourists."],
+        '석촌호수' : ['Seokchonhosu Lake', 'img/sujeong/석촌호수.jpeg', "Songpa Naru Park, also commonly referred to as Seokchonhosu Lake, is a citizen park in Seoul with a jogging course and walking trails."],
+        '서울스카이' : ['Lotte World Tower SEOUL SKY', 'img/sujeong/서울스카이.jpeg', "SEOUL SKY is located on floors 117-123 of Lotte World Tower, the nation's tallest and the world's fifth tallest building. The observatory offers a panoramic view of the entire capital city, beautiful both day and night."],
+        '서촌한옥마을': ['Seochon Village', 'img/sujeong/서촌마을.jpeg', "Seochon Village is the name given to the area to the west of Gyeongbokgung Palace. It is a historic village, home to old shops and hanok buildings that have stood the test of time."],
+        '덕수궁': ['Deoksugung Palace', 'img/sujeong/덕수궁.jpeg', "Registered as Historic Site No. 124, Deoksugung Palace was initially not a royal palace, but a residential home of Grand Prince Wolsan (1454-1488), the older brother of King Seongjong (1469-1494) of the Joseon dynasty."],
+        '광화문': ['Gwanghwamun', 'img/sujeong/광화문.webp', "Built in 1395 under the reign of King Taejo, the first king of the Joseon dynasty, Gwanghwamun Gate is the southern gate of Gyeongbokgung Palace. It is also the main gate of the palace, therefore larger and fancier in comparison to the other gates."],
+        '창덕궁': ['Changdeokgung Palace', 'img/sujeong/창덕궁.jpeg', " [UNESCO World Heritage Site] Changdeokgung Palace was the second royal villa built following the construction of Gyeongbokgung Palace in 1405. It was the principal palace for many kings of the Joseon dynasty, and is the most well-preserved of the five remaining royal Joseon palaces."],
+        '송리단길': ['Songnidan-gil Street', 'img/sujeong/송리단길.jpeg', "Located south of the eastern side of Seokchon Lake, this street is home to numerous restaurants and cafes. Today’s “Songnidan-gil Street” came to be as cafes moved into the neighborhood, followed by restaurants and photography studios."],
+        '롯데월드 어드벤처': ['Lotte World', 'img/sujeong/롯데월드.png', 'Operated by Lotte Group, Lotte World is the perfect spot for entertainment and sightseeing for Koreans and international tourists alike. The theme park is divided into the indoor Lotte World Adventure, and the outdoor lakeside Magic Island, with additional amenities including a shopping mall, folk museum, ice rink, hotel, and more.'],
+        '우리유황온천': ['Our Sulfur Hot Springs', 'img/sujeong/우리유황온천.jpeg', "Our Sulfur Hot Springs supplies natural sulfur hot spring water of 32.6 degrees Celsius from 1,040 meters underground every day. Centered around the main hot spring bath where you can take a sulfur hot spring bath, there is a salt room where you can take a salt compress, a crypt room, a sitz bath, a snack bar, and a sports massage room."],
         }
 # --------------------------(서울식물원)-------------------------
 #관광지명
@@ -135,9 +135,9 @@ rec_place_img = [dict1['경복궁'][1], dict1['서울어린이대공원'][1], di
 #추천 장소 설명 4개
 rec_caption = [dict1['경복궁'][2], dict1['서울어린이대공원'][2], dict1['청계천'][2], dict1['남산서울타워'][2]]
 # 관광지 Image
-image1 = 'img/수정/서울식물원.jpeg'
+image1 = 'img/sujeong/서울식물원.jpeg'
 #Wordcloud
-image2 = 'img/수정/서울/서울식물원 워드클라우드.png'
+image2 = 'img/sujeong/서울/서울식물원 워드클라우드.png'
 #파이차트 경로
 data = 'data/서울/서울식물원.csv'
 #Positive 개수
@@ -145,7 +145,7 @@ pos = 385
 #Negative 개수
 neg = 208
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/서울/서울식물원그래프.png'
+image3 = 'img/sujeong/서울/서울식물원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -164,9 +164,9 @@ rec_place_img = [dict1['석촌호수'][1], dict1['서울스카이'][1], dict1['�
 #추천 장소 설명 4개
 rec_caption = [dict1['석촌호수'][2], dict1['서울스카이'][2], dict1['서울어린이대공원'][2], dict1['경복궁'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/롯데월드.png'
+image1 = 'img/sujeong/롯데월드.png'
 #Wordcloud Image 2
-image2 = 'img/수정/서울/롯데월드 어드벤처 워드클라우드.png'
+image2 = 'img/sujeong/서울/롯데월드 어드벤처 워드클라우드.png'
 #파이차트 경로
 data = 'data/서울/롯데월드 어드벤처.csv'
 #Positive 개수
@@ -174,7 +174,7 @@ pos = 445
 #Negative 개수
 neg = 257
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/서울/롯데월드 어드벤처그래프.png'
+image3 = 'img/sujeong/서울/롯데월드 어드벤처그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -193,9 +193,9 @@ rec_place_img = [dict1['서촌한옥마을'][1], dict1['덕수궁'][1], dict1['�
 #추천 장소 설명 4개
 rec_caption = [dict1['서촌한옥마을'][2], dict1['덕수궁'][2], dict1['광화문'][2], dict1['창덕궁'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/경복궁.webp'
+image1 = 'img/sujeong/경복궁.webp'
 #Wordcloud Image 2
-image2 = 'img/수정/서울/경복궁 워드클라우드.png'
+image2 = 'img/sujeong/서울/경복궁 워드클라우드.png'
 #파이차트 경로
 data = 'data/서울/경복궁.csv'
 #Positive 개수
@@ -203,7 +203,7 @@ pos = 181
 #Negative 개수
 neg = 81
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/서울/경복궁그래프.png'
+image3 = 'img/sujeong/서울/경복궁그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -222,9 +222,9 @@ rec_place_img = [dict1['송리단길'][1], dict1['롯데월드 어드벤처'][1]
 #추천 장소 설명 4개
 rec_caption = [dict1['송리단길'][2], dict1['롯데월드 어드벤처'][2], dict1['서울스카이'][2], dict1['광화문'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/석촌호수.jpeg'
+image1 = 'img/sujeong/석촌호수.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/서울/석촌호수 서호 워드클라우드.png'
+image2 = 'img/sujeong/서울/석촌호수 서호 워드클라우드.png'
 #파이차트 경로
 data = 'data/서울/석촌호수 서호.csv'
 #Positive 개수
@@ -232,7 +232,7 @@ pos = 61
 #Negative 개수
 neg = 10
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/서울/석촌호수 서호그래프.png'
+image3 = 'img/sujeong/서울/석촌호수 서호그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -251,9 +251,9 @@ rec_place_img = [dict1['남산서울타워'][1], dict1['우리유황온천'][1],
 #추천 장소 설명 4개
 rec_caption = [dict1['남산서울타워'][2], dict1['우리유황온천'][2], dict1['청계천'][2], dict1['경복궁'][2]]
 # 관광지 Image 1
-image1 = 'img/수정/서울어린이대공원.jpeg'
+image1 = 'img/sujeong/서울어린이대공원.jpeg'
 #Wordcloud Image 2
-image2 = 'img/수정/서울/서울어린이대공원 워드클라우드.png'
+image2 = 'img/sujeong/서울/서울어린이대공원 워드클라우드.png'
 #파이차트 경로
 data = 'data/서울/서울어린이대공원.csv'
 #Positive 개수
@@ -261,7 +261,7 @@ pos = 37
 #Negative 개수
 neg = 9
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/수정/서울/서울어린이대공원그래프.png'
+image3 = 'img/sujeong/서울/서울어린이대공원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

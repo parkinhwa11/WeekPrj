@@ -119,27 +119,27 @@ intro = '''Spark Land, nestled in downtown Daegu, is a dynamic fusion of a shopp
 #추천 장소 4곳
 rec_place = ['Dongseong-ro Street', 'Crazy Pang Pang', 'Daegu Modernization Street', 'Cheongna Hill']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/동성로.jpg',
-                 'img/다율/크레이지팡팡.jpg',
-                 'img/다율/근대화.jpg',
-                 'img/다율/청라언덕.jpg']
+rec_place_img = ['img/dayul/dongseongro.jpg',
+                 'img/dayul/crazypang.jpg',
+                 'img/dayul/geundahwa.jpg',
+                 'img/dayul/cheongra.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Daegu's largest downtown area and landmark",
                "The only indoor multi-extreme park in South Korea",
                "A street in Daegu where the past, present, and future coexist",
                "Historic missionary site in Daegu, featuring ivy-lined paths, landmarks, and film sets."]
 # 관광지 Image
-image1 = 'img/다율/스파크랜드.png'
+image1 = 'img/dayul/sparkland.png'
 #Wordcloud
-image2 = 'img/다율/스파크랜드 워드클라우드.png'
+image2 = 'img/dayul/sparklandwc.png'
 #파이차트 경로
-data = 'data/대구/스파크랜드.csv'
+data = 'data/daegu/sparkland.csv'
 #Positive 개수
 pos_cnt = 85
 #Negative 개수
 neg_cnt = 40
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/스파크랜드그래프.png'
+image3 = 'img/dayul/sparklandgraph.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -158,27 +158,27 @@ intro = '''Kim Kwangseok-gil Street is a mural street near Bangcheon Market in t
 rec_place = ['Apsan Mountain Observatory', 'Suseongmot Lake Resort',
              'Daegu Dalseong Park', 'Apsan Cable Car ']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/앞산전망대.jpg',
-                 'img/다율/수성못.jpg',
-                 'img/다율/달성공원.jpg',
-                 'img/다율/앞산케이블카2.jpeg']
+rec_place_img = ['img/dayul/apsanjeonmangdae.jpg',
+                 'img/dayul/suseongmot.jpg',
+                 'img/dayul/dalsong.jpg',
+                 'img/dayul/apsancable2.jpeg']
 #추천 장소 설명 4개
 rec_caption = ["Sunset Point: Capturing Daegu's landscape in one glance at dusk.",
                "Ideal for family outings and romantic dates with diverse attractions.",
                "A park cherished by the people of Daegu, steeped in history.",
                "A must-visit spot for sightseeing in Daegu, offering a panoramic view of the city center."]
 # 관광지 Image
-image1 = 'img/다율/김광석길.jpg'
+image1 = 'img/dayul/kimgwangseokgil.jpg'
 #Wordcloud
-image2 = 'img/다율/김광석다시그리기길 워드클라우드.png'
+image2 = 'img/dayul/kimgwangseokwc.png'
 #파이차트 경로
-data = 'data/대구/김광석다시그리기길.csv'
+data = 'data/daegu/kimgwangsuk.csv'
 #Positive 개수
 pos_cnt = 41
 #Negative 개수
 neg_cnt = 21
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/김광석다시그리기길그래프.png'
+image3 = 'img/dayul/kimgwangseokgraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -199,27 +199,27 @@ intro = '''In October 1987, E-World began construction on a tower and theme park
 rec_place = ['Geumho River Cherry Blossom Tunnel', 'Arte Suseong Land',
              'Jumunjin Breakwater', 'Jeongdongsimgok Badabuchae Trail']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/금호강.jpg',
-                 'img/다율/아르떼.jpg',
-                 'img/다율/성당못.jpg',
-                 'img/다율/동촌.jpg']
+rec_place_img = ['img/dayul/geumhogang.jpg',
+                 'img/dayul/아르떼.JPG',
+                 'img/dayul/seongdangmok.jpg',
+                 'img/dayul/dongchon.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is famous for its cherry blossoms.',
                'The first amusement park in Daegu',
                'A resting place for citizens, beautiful in all four seasons',
                'There are various recreational facilities and well-built roads for enjoyable drives.']
 # 관광지 Image
-image1 = 'img/다율/이월드.png'
+image1 = 'img/dayul/eworld.png'
 #Wordcloud
-image2 = 'img/다율/대구이월드 워드클라우드.png'
+image2 = 'img/dayul/daegueworldwc.png'
 #파이차트 경로
-data = 'data/대구/대구이월드.csv'
+data = 'data/daegu/daegueworld.csv'
 #Positive 개수
 pos_cnt = 7
 #Negative 개수
 neg_cnt = 4
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/대구이월드그래프.png'
+image3 = 'img/dayul/daegueworldgraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -236,27 +236,27 @@ intro = '''83 Tower is a symbol of Daegu and offers an incredible view of the en
 #추천 장소 4곳
 rec_place = ['Daegu Arboretum', 'Palgongsan Cable Car', 'Hwawon Park', 'Ancient Tombs in Bullo-dong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/다율/대구수목원.jpg',
-                 'img/다율/팔공산.jpg',
-                 'img/다율/화원동산.jpg',
-                 'img/다율/고분군.jpg']
+rec_place_img = ['img/dayul/daegusumok.jpg',
+                 'img/dayul/palgonsan.jpg',
+                 'img/dayul/hwanwon.jpg',
+                 'img/dayul/gobungun.jpg']
 #추천 장소 설명 4개
 rec_caption = ['A resting space for citizens of Daegu, where various plant species inhabit.',
                'You can enjoy the scenery while also experiencing thrills at the same time.',
                'a vast park beside the Nakdonggang River, is steeped in history',
                'Clusters of tombs from the Three Kingdoms period, ranging from large to small in size.']
 # 관광지 Image
-image1 = 'img/다율/83타워.png'
+image1 = 'img/dayul/83tower.png'
 #Wordcloud
-image2 = 'img/다율/83타워 워드클라우드.png'
+image2 = 'img/dayul/83towerwordcloud.png'
 #파이차트 경로
-data = 'data/대구/83타워.csv'
+data = 'data/daegu/83tower.csv'
 #Positive 개수
 pos_cnt = 24
 #Negative 개수
 neg_cnt = 18
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/_83타워그래프.png'
+image3 = 'img/dayul/83towergraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -273,26 +273,26 @@ intro = '''A multifaceted resort in the city center, offering unique spas featur
 #추천 장소 4곳
 rec_place = ['Daegu Spa Valley', 'Life Spa', 'Nature Park', 'Palgongsan Shimcheon Land']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['img/다율/스파밸리.jpg',
-                 'img/다율/생활온천.jpg',
-                 'img/다율/네이처파크.jpg',
-                 'img/다율/심천랜드.jpg']
+rec_place_img = ['img/dayul/spabelly.jpg',
+                 'img/dayul/saenhwaloncheon.jpg',
+                 'img/dayul/naturepark.jpg',
+                 'img/dayul/simcheonland.jpg']
 #추천 장소 설명 4개
 rec_caption = ['A year-round water park offering various water attractions and hot springs',
                'Urban Health Hot Springs',
                'The botanical garden consists of a glasshouse zoo and a radial outdoor zoo.',
                'The purest natural spring water, untouched by purification processes, the finest natural hot spring.']
 # 관광지 Image
-image1 = 'img/다율/엘리바덴.jpg'
+image1 = 'img/dayul/elevaden.jpg'
 #Wordcloud
-image2 = 'img/다율/엘리바덴 신월성점 워드클라우드.png'
+image2 = 'img/dayul/elevadaenwc.png'
 #파이차트 경로
-data = 'data/대구/엘리바덴 신월성점.csv'
+data = 'data/daegu/elevaden.csv'
 #Positive 개수
 pos_cnt = 59
 #Negative 개수
 neg_cnt = 59
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/다율/엘리바덴 그래프.png'
+image3 = 'img/dayul/elevadaengraph.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
