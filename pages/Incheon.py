@@ -144,7 +144,7 @@ pos = 59
 #Negative 개수
 neg = 37
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/sujeong/인천/월미도그래프.png'
+image3 = 'img/sujeong/인천/월미도그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
