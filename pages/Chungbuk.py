@@ -291,8 +291,8 @@ rec_place = ['Busodamak',
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/jongheok/충북/부소담악.jpg',
                  'img/jongheok/충북/장령산자연휴양림.jpg',
-                 'img/jongheok/충북/육영수 생가.jpg',
-                 'img/jongheok/충북/대청댐 jeonmangdae.jpg']
+                 'img/jongheok/충북/육영수생가.jpg',
+                 'img/jongheok/충북/대청댐전망대.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a rocky cliff that rises above the water, and is 700m long.',
                'It is a famous mountain in Okcheon, which is famous for its beautiful natural scenery, and pine, maple, and cypress trees grow naturally.',
