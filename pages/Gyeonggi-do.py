@@ -213,7 +213,7 @@ rec_caption = ['The zoo has about 3,000 animals and has access to rose gardens, 
                'It is a large-scale complex cultural facility located in Paju-si, Gyeonggi-do.',
                'It is a small island in the Yellow Sea with trails, fishing grounds, and beautiful beaches.']
 # 관광지 Image
-image1 = 'img/종혁/경기/서울랜드.bmp'
+image1 = 'img/종혁/경기/서울랜드.jpg'
 #Wordcloud
 image2 = 'img/종혁/경기/서울랜드 워드클라우드.png'
 #파이차트 경로
@@ -246,7 +246,7 @@ rec_place = ['Daebudo Island',
 rec_place_img = ['img/종혁/경기/대부도.jpg',
                  'img/종혁/경기/루덴시아.jpg',
                  'img/종혁/경기/벽초지수목원.jpg',
-                 'img/종혁/경기/퍼스트가든.bmp']
+                 'img/종혁/경기/퍼스트가든.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a small island in the Yellow Sea with trails, fishing grounds, and beautiful beaches.',
                'Ludensia, called the Alps of Yeoju, is a European-style theme park that provides new cultural experiences based on inspiration and fun.',
@@ -294,7 +294,7 @@ rec_caption = ['Yongin Rural Theme Park is a large-scale comprehensive experienc
                'It is a theme park that provides a pleasant rest and joy with various seasonal festivals, attractions, animals, and plants.',
                'Pretty cafes are gaining popularity along the square-shaped residential alley. The Café Street in Bojeong-dong is impressive in its unique and exotic appearance as if it were in a small village in a foreign country in an alley harmonized with nature.']
 # 관광지 Image
-image1 = 'img/종혁/경기/한국민속촌.bmp'
+image1 = 'img/종혁/경기/한국민속촌.jpg'
 #Wordcloud
 image2 = 'img/종혁/경기/한국민속촌 워드클라우드.png'
 #파이차트 경로

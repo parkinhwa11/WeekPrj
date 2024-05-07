@@ -240,7 +240,7 @@ rec_place = ['Seonyudo Beach',
              'Gogunsan Islands']
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/종혁/전북/선유도해수욕장.jpg',
-                 'img/종혁/전북/새만금방조제.webp',
+                 'img/종혁/전북/새만금방조제.jpg',
                  'img/종혁/전북/장자도.jpg',
                  'img/종혁/전북/고군산군도.jpg']
 #추천 장소 설명 4개
