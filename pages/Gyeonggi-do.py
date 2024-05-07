@@ -203,10 +203,10 @@ rec_place = ['Seoul Grand Park',
              'First Garden',
              'Daebudo Island']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/jongheok/경기/서울대공원.jpg',
-                 './img/jongheok/경기/어린이대공원.jpg',
-                 './img/jongheok/경기/퍼스트가든.jpg',
-                 './img/jongheok/경기/대부도.jpg']
+rec_place_img = ['img/jongheok/경기/서울대공원.jpg',
+                 'img/jongheok/경기/어린이대공원.jpg',
+                 'img/jongheok/경기/퍼스트가든.jpg',
+                 'img/jongheok/경기/대부도.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The zoo has about 3,000 animals and has access to rose gardens, art galleries, and theme parks.',
                "Children's Grand Park opened on Children's Day on May 5, 1973. It is 56,552㎡ and consists of green spaces with green forests and blue grass, so it serves as a citizen's park as a resting and cultural space for children as well as youth and ordinary citizens.",
