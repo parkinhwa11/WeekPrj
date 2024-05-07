@@ -129,7 +129,7 @@ rec_place = ['Royal Tomb of King Muryeong',
 rec_place_img = ['img/jongheok/충남/무령왕릉.jpg',
                  'img/jongheok/충남/공산성.jpg',
                  'img/jongheok/충남/계룡산.jpg',
-                 'img/jongheok/충남/대천해수욕장.jpg']
+                 'img/jongheok/충남/대천해수욕.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an ancient 6th-century royal tomb known for its impressive design and treasures such as golden crowns.',
                'Located in the middle of a mountain overlooking the river and downtown Gongju, it is a centuries-old Baekje-era fortress.',
