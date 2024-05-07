@@ -95,9 +95,9 @@ df_loc.columns = ['lat', 'lon']
 if selected_city:
     if selected_city == 'Korea':
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=7)
-        my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level,
-                            tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-                            attr='Stadia Maps'
+        my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level
+                            # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+                            # attr='Stadia Maps'
                             )
         marker_cluster = MarkerCluster().add_to(my_map)
         for name, lat2, lon2 in zip(df['관광지'], df['위도'], df['경도']):
