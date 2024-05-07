@@ -124,27 +124,27 @@ rec_place = ['Yongin Rural Theme Park',
              'Caribbean Bay',
              'Korean Folk Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/경기/용인농촌테마파크.jpg',
-                 './img/종혁/경기/용인자연휴양림.jpg',
-                 './img/종혁/경기/캐리비안베이.jpg',
-                 './img/종혁/경기/한국민속촌.bmp']
+rec_place_img = ['img/종혁/경기/용인농촌테마파크.jpg',
+                 'img/종혁/경기/용인자연휴양림.jpg',
+                 'img/종혁/경기/캐리비안베이.jpg',
+                 'img/종혁/경기/한국민속촌.bmp']
 #추천 장소 설명 4개
 rec_caption = ['Yongin Rural Theme Park is a large-scale comprehensive experience facility suitable for rural and rural characteristics considering the connection with surrounding tourism resources.',
                "Yongin Natural Recreation Forest, created by Yongin-si, Gyeonggi-do, at the foot of Jeonggwangsan Mountain in Mohyeon-eup, is a stay-type rest area with accommodations, trails, and children's playgrounds with beautiful natural scenery.",
                "It is a water park with indoor and outdoor facilities including wave pools, running water pools, and children's play areas.",
                'It is a folk museum that introduces traditional Korean houses and customs, with restaurants and theme parks.']
 # 관광지 Image
-image1 = './img/종혁/경기/에버랜드.jpg'
+image1 = 'img/종혁/경기/에버랜드.jpg'
 #Wordcloud
-image2 = './img/종혁/경기/에버랜드 워드클라우드.png'
+image2 = 'img/종혁/경기/에버랜드 워드클라우드.png'
 #파이차트 경로
-data = ('./data/경기/에버랜드.csv')
+data = ('data/경기/에버랜드.csv')
 #Positive 개수
 pos = 474
 #Negative 개수
 neg = 264
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/경기/에버랜드 그래프.png'
+image3 = 'img/종혁/경기/에버랜드 그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -164,27 +164,27 @@ rec_place = ['Pocheon Art Valley',
              'Namhansanseong Fortress',
              'Suwon Hwaseong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/경기/포천아트밸리.jpg',
-                 './img/종혁/경기/벽초지수목원.jpg',
-                 './img/종혁/경기/남한산성.jpg',
-                 './img/종혁/경기/수원화성.jpg']
+rec_place_img = ['img/종혁/경기/포천아트밸리.jpg',
+                 'img/종혁/경기/벽초지수목원.jpg',
+                 'img/종혁/경기/남한산성.jpg',
+                 'img/종혁/경기/수원화성.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is an old granite quarry, a complex cultural space with outdoor statues, lakes, and concert stages.',
                'It is a lush park with European and Asian themed gardens, with pavilions, ponds, and willow trees.',
                'There is Namhansanseong Provincial Park with Namhansanseong Fortress, one of the four fortresses that protected Hanyang in the past.',
                "An 18th-century fortification with the city's ancient walls and old structures remaining, it leads from here to the Old Town."]
 # 관광지 Image
-image1 = './img/종혁/경기/화담숲.png'
+image1 = 'img/종혁/경기/화담숲.png'
 #Wordcloud
-image2 = './img/종혁/경기/화담숲 워드클라우드.png'
+image2 = 'img/종혁/경기/화담숲 워드클라우드.png'
 #파이차트 경로
-data = './data/경기/화담숲.csv'
+data = 'data/경기/화담숲.csv'
 #Positive 개수
 pos = 291
 #Negative 개수
 neg = 196
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/경기/화담숲 그래프.png'
+image3 = 'img/종혁/경기/화담숲 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -213,17 +213,17 @@ rec_caption = ['The zoo has about 3,000 animals and has access to rose gardens, 
                'It is a large-scale complex cultural facility located in Paju-si, Gyeonggi-do.',
                'It is a small island in the Yellow Sea with trails, fishing grounds, and beautiful beaches.']
 # 관광지 Image
-image1 = './img/종혁/경기/서울랜드.bmp'
+image1 = 'img/종혁/경기/서울랜드.bmp'
 #Wordcloud
-image2 = './img/종혁/경기/서울랜드 워드클라우드.png'
+image2 = 'img/종혁/경기/서울랜드 워드클라우드.png'
 #파이차트 경로
-data = './data/경기/서울랜드.csv'
+data = 'data/경기/서울랜드.csv'
 #Positive 개수
 pos = 187
 #Negative 개수
 neg = 94
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/경기/서울랜드 그래프.png'
+image3 = 'img/종혁/경기/서울랜드 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -243,10 +243,10 @@ rec_place = ['Daebudo Island',
              'Byeokcho Arboretum',
              'First Garden']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/경기/대부도.jpg',
-                 './img/종혁/경기/루덴시아.jpg',
-                 './img/종혁/경기/벽초지수목원.jpg',
-                 './img/종혁/경기/퍼스트가든.bmp']
+rec_place_img = ['img/종혁/경기/대부도.jpg',
+                 'img/종혁/경기/루덴시아.jpg',
+                 'img/종혁/경기/벽초지수목원.jpg',
+                 'img/종혁/경기/퍼스트가든.bmp']
 #추천 장소 설명 4개
 rec_caption = ['It is a small island in the Yellow Sea with trails, fishing grounds, and beautiful beaches.',
                'Ludensia, called the Alps of Yeoju, is a European-style theme park that provides new cultural experiences based on inspiration and fun.',
@@ -254,17 +254,17 @@ rec_caption = ['It is a small island in the Yellow Sea with trails, fishing grou
                'It is a large-scale complex cultural facility located in Paju-si, Gyeonggi-do.']
 
 # 관광지 Image
-image1 = './img/종혁/경기/니지모리스튜디오.jpg'
+image1 = 'img/종혁/경기/니지모리스튜디오.jpg'
 #Wordcloud
-image2 = './img/종혁/경기/니지모리스튜디오 워드클라우드.png'
+image2 = 'img/종혁/경기/니지모리스튜디오 워드클라우드.png'
 #파이차트 경로
-data = './data/경기/니지모리스튜디오.csv'
+data = 'data/경기/니지모리스튜디오.csv'
 #Positive 개수
 pos = 1427
 #Negative 개수
 neg = 652
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/경기/니지모리스튜디오 그래프.png'
+image3 = 'img/종혁/경기/니지모리스튜디오 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -284,26 +284,26 @@ rec_place = ['Yongin Rural Theme Park',
              'Everland',
              'Café Street in Bojeong-dong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/경기/용인농촌테마파크.jpg',
-                 './img/종혁/경기/용인자연휴양림.jpg',
-                 './img/종혁/경기/에버랜드.jpg',
-                 './img/종혁/경기/보정동 카페거리.jpg']
+rec_place_img = ['img/종혁/경기/용인농촌테마파크.jpg',
+                 'img/종혁/경기/용인자연휴양림.jpg',
+                 'img/종혁/경기/에버랜드.jpg',
+                 'img/종혁/경기/보정동 카페거리.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Yongin Rural Theme Park is a large-scale comprehensive experience facility suitable for rural and rural characteristics considering the connection with surrounding tourism resources.',
                "Yongin Natural Recreation Forest, created by Yongin-si, Gyeonggi-do, at the foot of Jeonggwangsan Mountain in Mohyeon-eup, is a stay-type rest area with accommodations, trails, and children's playgrounds with beautiful natural scenery.",
                'It is a theme park that provides a pleasant rest and joy with various seasonal festivals, attractions, animals, and plants.',
                'Pretty cafes are gaining popularity along the square-shaped residential alley. The Café Street in Bojeong-dong is impressive in its unique and exotic appearance as if it were in a small village in a foreign country in an alley harmonized with nature.']
 # 관광지 Image
-image1 = './img/종혁/경기/한국민속촌.bmp'
+image1 = 'img/종혁/경기/한국민속촌.bmp'
 #Wordcloud
-image2 = './img/종혁/경기/한국민속촌 워드클라우드.png'
+image2 = 'img/종혁/경기/한국민속촌 워드클라우드.png'
 #파이차트 경로
-data = './data/경기/한국민속촌.csv'
+data = 'data/경기/한국민속촌.csv'
 #Positive 개수
 pos = 267
 #Negative 개수
 neg = 197
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/경기/한국민속촌 그래프.png'
+image3 = 'img/종혁/경기/한국민속촌 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)
