@@ -245,7 +245,7 @@ rec_place = ['Glazed Cave',
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/jongheok/충북/충주 활옥동굴.jpg',
                  'img/jongheok/충북/탄금대.jpg',
-                 'img/jongheok/충북/충주댐 jeonmangdae.jpg',
+                 'img/jongheok/충북/충주댐전망대.jpg',
                  'img/jongheok/충북/충주 탑평리 칠층석탑.jpeg']
 #추천 장소 설명 4개
 rec_caption = ['It is the only talc mine in Korea developed in Japanese colonial era in 1922, with a record of 57 km and an informal 87 km, and a vertical underground height of 711 m, the largest in the East.',
