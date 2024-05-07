@@ -264,7 +264,7 @@ rec_caption = ['Haeundae Beach is the most famous beach in Busan. The white sand
                'Seafood Pojang Macha Chon is where you can taste a variety of seafood caught in the waters off Gijang.',
                "Dongbaekseom Island (Island of Camellias) is an island located off one end of Busan's famous Haeundae Beach. Dongbaekseom Island is easy to navigate thanks to the walking path that is built around it."]
 # 관광지 Image
-image1 = 'img/sujeong/해운대포장마차촌.jpg'
+image1 = 'img/sujeong/해운대포장마차촌.jpg'
 #Wordcloud
 image2 = 'img/sujeong/부산/해운대 포장마차촌 워드클라우드.png'
 #파이차트 경로
@@ -274,6 +274,6 @@ pos = 62
 #Negative 개수
 neg = 50
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/sujeong/부산/해운대포장마차촌그래프.png'
+image3 = 'img/sujeong/부산/해운대포장마차촌그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)
