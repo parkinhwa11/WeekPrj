@@ -127,7 +127,7 @@ rec_place = ['Yongin Rural Theme Park',
 rec_place_img = ['img/jongheok/경기/용인농촌테마파크.jpg',
                  'img/jongheok/경기/용인자연휴양림.jpg',
                  'img/jongheok/경기/캐리비안베이.jpg',
-                 'img/jongheok/경기/한국민속촌.bmp']
+                 'img/jongheok/경기/한국민속촌.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Yongin Rural Theme Park is a large-scale comprehensive experience facility suitable for rural and rural characteristics considering the connection with surrounding tourism resources.',
                "Yongin Natural Recreation Forest, created by Yongin-si, Gyeonggi-do, at the foot of Jeonggwangsan Mountain in Mohyeon-eup, is a stay-type rest area with accommodations, trails, and children's playgrounds with beautiful natural scenery.",
