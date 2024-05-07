@@ -193,7 +193,7 @@ rec_place_img = [dict1['서촌한옥마을'][1], dict1['덕수궁'][1], dict1['�
 #추천 장소 설명 4개
 rec_caption = [dict1['서촌한옥마을'][2], dict1['덕수궁'][2], dict1['광화문'][2], dict1['창덕궁'][2]]
 # 관광지 Image 1
-image1 = 'img/sujeong/경복궁.webp'
+image1 = 'img/sujeong/경복궁.jpg'
 #Wordcloud Image 2
 image2 = 'img/sujeong/서울/경복궁 워드클라우드.png'
 #파이차트 경로
