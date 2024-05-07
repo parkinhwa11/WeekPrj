@@ -278,7 +278,7 @@ intro = '''Amethyst Cavern Park is the largest man-made cave tourist attraction 
 #추천 장소 4곳
 rec_place = ['Ilsan Beach', 'Ulsan Bridge Observatory', 'Myeongseon Island', 'Wishing Mailbox at Ganjeolgot']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['img/dayul/ilsanbeach.jpg', 'img/dayul/ulsandaegyo.jpg', 'img/dayul/myeongseondo.png', 'img/dayul/소망우체통.jpg']
+rec_place_img = ['img/dayul/ilsanbeach.jpg', 'img/dayul/ulsandaegyo.jpg', 'img/dayul/myeongseondo.png', 'img/dayul/소망.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A Sea with Diverse Charms",
                "Landmark with a View of Ulsan",
