@@ -260,7 +260,7 @@ pos = 17
 #Negative 개수
 neg = 8
 #Bigram NetworkX Graph 이미지 첨부
-image3 = 'img/sujeong/인천/송월동동화마을.png'
+image3 = 'img/sujeong/인천/송월동동화마을그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)
