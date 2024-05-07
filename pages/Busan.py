@@ -116,7 +116,7 @@ rec_place = ['Songjeong Beach', 'Haeundae Beach', 'Songdo Beach', 'Dalmaji Road'
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/sujeong/송정해수욕장.jpeg',
                  'img/sujeong/해운대해수욕장.jpeg',
-                 'img/sujeong/송도해수욕장.webp',
+                 'img/sujeong/송도해수욕장.jpg',
                  'img/sujeong/해운대달맞이길.png']
 #추천 장소 설명 4개
 rec_caption = ['Songjeong Beach is ideal for families with young children because of its shallow waters. The beach is very popular as a photography venue for pre-wedding photoshoots.',
@@ -152,7 +152,7 @@ rec_place = ['Songjeong Beach', 'Gamcheon Culture Village', 'Haeundae Beach', 'B
 rec_place_img = ['img/sujeong/송정해수욕장.jpeg',
                  'img/sujeong/감천문화마을.jpeg',
                  'img/sujeong/해운대해수욕장.jpeg',
-                 'img/sujeong/부산타워.webp']
+                 'img/sujeong/부산타워.jpg']
 #추천 장소 설명 4개
 rec_caption = [rec_caption[0], #송정해수욕장
                'Gamcheon Culture Villiage was formed by refugees of the Korean war who built their houses in staircase-fashion on the foothills of a coastal mountain. The many alleys in this community are vibrantly decorated with murals and sculptures created by the residents.',
