@@ -204,7 +204,7 @@ intro = '''Jangtaesan Recreational Forest consists of a dense forest of ginkgo t
 #추천 장소 4곳
 rec_place = ['Gyejoksan Red Clay Trail', 'Daejeon EXPO Plaza', 'Bomunsan Observatory', 'Daedong Mural Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/dayul/황톳길.jpg', 'img/dayul/xpo.jpg', 'img/dayul/bomunsanjeongmangdae.jpeg', 'img/dayul/daedong.jpg']
+rec_place_img = ['img/dayul/황톳길.jpg', 'img/dayul/엑스포.jpg', 'img/dayul/보문산전망대.jpg', 'img/dayul/대동마을.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Let's go trekking barefoot",
                "A space to enjoy cultural activities, leisure, and sports together",
