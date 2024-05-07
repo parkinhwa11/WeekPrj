@@ -125,16 +125,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Mokpo Marine Cable Car Yudalsan Platform', 'Mokpo Skywalk', 'Yudal Mountain', 'Mokpo Gatbawi Rock']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/인화/목포유달산승강장.jpg', './img/인화/목포스카이워크.jpg', './img/인화/유달산.jpg', './img/인화/목포갓바위.jpg']
+rec_place_img = ['img/인화/목포유달산승강장.jpg', 'img/인화/목포스카이워크.jpg', 'img/인화/유달산.jpg', 'img/인화/목포갓바위.jpg']
 #추천 장소 설명 4개
 rec_caption = ['The longest cable in Korea at 3.23km. At 155m, it is the second tallest cable car tower in the world. Yudalsan platform is the middle point among the three platforms!',
                 'Operating hours: Summer 09:00~21:00 , Winter season 09:00~20:00 From the observatory, you can enjoy a beautiful view of the open sea and Gojeong Bridge, and a photo zone is set up, making it perfect for making great memories.',
                 'The entire Yudal Mountain is made of granite and has a steep slope, but some gentle terrain is formed along the circuit road.',
                 'It was designated as a natural monument on April 27, 2009. Gatbawi Rock consists of two pieces, the larger one is 8m long and the smaller one is about 6m long.']
 # 관광지 Image
-image1 = './img/인화/목포북항승강장.jpg'
+image1 = 'img/인화/목포북항승강장.jpg'
 #Wordcloud
-image2 = './img/인화/목포해상케이블카 북항승강장 워드클라우드.png'
+image2 = 'img/인화/목포해상케이블카 북항승강장 워드클라우드.png'
 #파이차트 경로
 data = 'data/전남/목포해상케이블카 북항승강장.csv'
 #Positive 개수
@@ -142,7 +142,7 @@ pos_cnt = 148
 #Negative 개수
 neg_cnt = 114
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/인화/목포해상케이블카 북항승강장그래프.png'
+image3 = 'img/인화/목포해상케이블카 북항승강장그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -164,16 +164,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Suncheon Bay Wetland', 'Ocheon Green Square', 'Suncheon Bay Natural Ecology Center', 'Naganeupseong Walled Town']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/인화/순천만습지.jpg', './img/인화/오천그린광장.jpg', './img/인화/순천만자연생태관.jpg', './img/인화/순천낙안읍성.jpg']
+rec_place_img = ['img/인화/순천만습지.jpg', 'img/인화/오천그린광장.jpg', 'img/인화/순천만자연생태관.jpg', 'img/인화/순천낙안읍성.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Operating Hours : March~April, September~October 08:00~18:00 May~August 08:00~19:00 November~February 08:00~17:00',
                 'In Suncheon, the lawn plaza in the middle of the city created for the garden fair is emerging as a popular spot to escape the tropical nights.',
                 'At the Suncheon Bay Natural Ecology Center, an ecological learning center where you can see and learn information about the various creatures of Suncheon Bay, you can listen to interesting explanations about Suncheon Bay with a guide.',
                 'It is a castle built with earth in the early Joseon Dynasty to prevent damage from frequent Japanese invasions starting from the late Goryeo Dynasty.']
 # 관광지 Image 1
-image1 = './img/인화/순천만국가정원.jpg'
+image1 = 'img/인화/순천만국가정원.jpg'
 #Wordcloud Image 2
-image2 = './img/인화/순천만국가정원 워드클라우드.png'
+image2 = 'img/인화/순천만국가정원 워드클라우드.png'
 #파이차트 경로
 data = 'data/전남/순천만국가정원.csv'
 #Positive 개수
@@ -181,7 +181,7 @@ pos_cnt = 388
 #Negative 개수
 neg_cnt = 202
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/인화/순천만국가정원그래프.png'
+image3 = 'img/인화/순천만국가정원그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -206,7 +206,7 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Yeosu Romantic Carriage Street', 'Goso-dong Mural Village', 'Yeosu Marine Cable Car', 'Yeosu Minam Cruise']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/인화/여수포차거리.jpg', './img/인화/고소동벽화마을.jpg', './img/인화/여수해상케이블카.jpg', './img/인화/여수크루즈.jpg']
+rec_place_img = ['img/인화/여수포차거리.jpg', 'img/인화/고소동벽화마을.jpg', 'img/인화/여수해상케이블카.jpg', 'img/인화/여수크루즈.jpg']
 #추천 장소 설명 4개
 rec_caption = ['A food stall street where you can eat while enjoying the night sea in Yeosu',
                 'This is a place where Yeosu citizens enjoy a more beautiful night.',
@@ -214,9 +214,9 @@ rec_caption = ['A food stall street where you can eat while enjoying the night s
                 'If you want to enjoy the romantic night view of Yeosu’s night sea and fireworks, come here.',
                ]
 # 관광지 Image 1
-image1 = './img/인화/이순신광장.jpg'
+image1 = 'img/인화/이순신광장.jpg'
 #Wordcloud Image 2
-image2 = './img/인화/이순신광장 워드클라우드.png'
+image2 = 'img/인화/이순신광장 워드클라우드.png'
 #파이차트 경로
 data = 'data/전남/이순신광장.csv'
 #Positive 개수
@@ -224,7 +224,7 @@ pos_cnt = 58
 #Negative 개수
 neg_cnt = 35
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/인화/이순신광장그래프.png'
+image3 = 'img/인화/이순신광장그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -246,16 +246,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Suncheon Bay Natural Ecology Center','Suncheon Bay National Garden',' Waon Beach','Naganeupseong Walled Town']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/인화/순천만자연생태관.jpg', './img/인화/순천만국가정원.jpg', './img/인화/와온해변.jpg', './img/인화/순천낙안읍성.jpg']
+rec_place_img = ['img/인화/순천만자연생태관.jpg', 'img/인화/순천만국가정원.jpg', 'img/인화/와온해변.jpg', 'img/인화/순천낙안읍성.jpg']
 #추천 장소 설명 4개
 rec_caption = ['At the Suncheon Bay Natural Ecology Center, an ecological learning center where you can see and learn information about the various creatures of Suncheon Bay, you can listen to interesting explanations about Suncheon Bay with a guide.',
                 'It is Korea\'s first national garden and one of the world\'s five largest coastal wetlands.',
                 'It is a place with beautiful sunset views, and the sight of the sun setting over Sol Island in front of Waon Beach creates a spectacular sight.',
                 'It is a castle built with earth in the early Joseon Dynasty to prevent damage from frequent Japanese invasions starting from the late Goryeo Dynasty.']
 # 관광지 Image 1
-image1 = './img/인화/순천만습지.jpg'
+image1 = 'img/인화/순천만습지.jpg'
 #Wordcloud Image 2
-image2 = './img/인화/순천만습지 워드클라우드.png'
+image2 = 'img/인화/순천만습지 워드클라우드.png'
 #파이차트 경로
 data = 'data/전남/순천만습지.csv'
 #Positive 개수
@@ -263,7 +263,7 @@ pos_cnt = 193
 #Negative 개수
 neg_cnt = 97
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/인화/순천만습지그래프.png'
+image3 = 'img/인화/순천만습지그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -289,16 +289,16 @@ intro = '''
 #추천 장소 4곳
 rec_place = ['Damyang Noodle Street','Meta-Provence','Metasequoia Garosu-gil','Soswaewon Garden']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/인화/담양국수거리.jpg', './img/인화/메타프로방스.jpg', './img/인화/메타세쿼이아.jpg', './img/인화/소쇄원.jpg']
+rec_place_img = ['img/인화/담양국수거리.jpg', 'img/인화/메타프로방스.jpg', 'img/인화/메타세쿼이아.jpg', 'img/인화/소쇄원.jpg']
 #추천 장소 설명 4개
 rec_caption = ['There are outdoor tables from the beginning to the end of the noodle street, so you can enjoy a generous amount of noodles at a reasonable price while looking out at the lovely view of the Yeongsan River.',
                 'Meta-Provence is a place visited by about 5 million tourists a year and has the feel of a replica of Provence, a French city famous as a resort.',
                 'As I walk along the Metasequoia Road, I become immersed in the exotic scenery and find myself drawn into a southern road without even realizing it.',
                 'Soswaewon, along with Bogildo\'s Buyongdong Garden, is a representative byeolseo (a house built separately near a farm or field) garden of the Joseon Dynasty that harmonized nature and artificiality.']
 # 관광지 Image 1
-image1 = './img/인화/담양관방제림.jpg'
+image1 = 'img/인화/담양관방제림.jpg'
 #Wordcloud Image 2
-image2 = './img/인화/담양관방제림 워드클라우드.png'
+image2 = 'img/인화/담양관방제림 워드클라우드.png'
 #파이차트 경로
 data = 'data/전남/담양관방제림.csv'
 #Positive 개수
@@ -306,7 +306,7 @@ pos_cnt = 61
 #Negative 개수
 neg_cnt = 23
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/인화/담양관방제림그래프.png'
+image3 = 'img/인화/담양관방제림그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

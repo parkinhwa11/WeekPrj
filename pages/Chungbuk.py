@@ -124,27 +124,27 @@ rec_place = ['Munji Cultural Heritage Complex',
              'Midongsan Arboretum',
              'Seongan-gil']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충북/문의문화재단지.jpg',
-                 './img/종혁/충북/대청댐 전망대.jpg',
-                 './img/종혁/충북/미동산수목원.jpg',
-                 './img/종혁/충북/성안길.jpg']
+rec_place_img = ['img/종혁/충북/문의문화재단지.jpg',
+                 'img/종혁/충북/대청댐 전망대.jpg',
+                 'img/종혁/충북/미동산수목원.jpg',
+                 'img/종혁/충북/성안길.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Munmun Cultural Property was established to revive and learn the lives and spirits of our ancestors by recreating our own traditional culture, which is disappearing due to the development of human civilization and rapid industrialization.',
                'When you climb the observatory, you can see the clear Daecheong Lake, and when you enter the water promotion hall, there is a video facility that provides a clear view of water-related materials, dam construction, and various financial resources, serving as a water resource learning center.',
                'Mi Dongsan Arboretum is a provincial arboretum located in Cheongju-si, Chungcheongbuk-do, built for the purpose of R&D and distribution of advanced forestry technologies and the creation of ecological education environment',
                'Seongan-gil, located in the middle of the city center of Cheongju, is one of the busiest places in the country.']
 # 관광지 Image
-image1 = './img/종혁/충북/청남대.jpg'
+image1 = 'img/종혁/충북/청남대.jpg'
 #Wordcloud
-image2 = './img/종혁/충북/청남대 워드클라우드.png'
+image2 = 'img/종혁/충북/청남대 워드클라우드.png'
 #파이차트 경로
-data = ('./data/충북/청남대.csv')
+data = ('data/충북/청남대.csv')
 #Positive 개수
 pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/충북/청남대 그래프.png'
+image3 = 'img/종혁/충북/청남대 그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -164,27 +164,27 @@ rec_place = ['Cheongju Hot Spring Spa',
              'Uirimji',
              'Jecheon Oksoonbong Suspension Bridge']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충북/청주온천스파.jpg',
-                 './img/종혁/충북/박달재자연휴양림.jpg',
-                 './img/종혁/충북/의림지.jpg',
-                 './img/종혁/충북/제천 옥순봉 출렁다리.jpg']
+rec_place_img = ['img/종혁/충북/청주온천스파.jpg',
+                 'img/종혁/충북/박달재자연휴양림.jpg',
+                 'img/종혁/충북/의림지.jpg',
+                 'img/종혁/충북/제천 옥순봉 출렁다리.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Spa',
                'A dense forest where pine trees and miscellaneous trees coexist for about 150 years is in harmony with the strange rock formations.',
                'Uirimji is one of the representative repair facilities in Korea, and it is known that it has existed since the Three Han Period, although the date of its formation is not clear.',
                'It is a suspension bridge where you can feel Oksunbong Peak, one of the 10 scenic views of Jecheon, with your whole body on the surface of Cheongpung Lake']
 # 관광지 Image
-image1 = './img/종혁/충북/포레스트리솜 해브나인스파.jpg'
+image1 = 'img/종혁/충북/포레스트리솜 해브나인스파.jpg'
 #Wordcloud
-image2 = './img/종혁/충북/포레스트리솜 해브나인스파 워드클라우드.png'
+image2 = 'img/종혁/충북/포레스트리솜 해브나인스파 워드클라우드.png'
 #파이차트 경로
-data = './data/충북/포레스트리솜 해브나인스파.csv'
+data = 'data/충북/포레스트리솜 해브나인스파.csv'
 #Positive 개수
 pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/충북/포레스트리솜 해브나인스파 그래프.png'
+image3 = 'img/종혁/충북/포레스트리솜 해브나인스파 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -203,27 +203,27 @@ rec_place = ['Yongchu Falls Glass Observatory',
              'Jecheon Oksoonbong Suspension Bridge',
              'Cheongpungho Tourist Monorail']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충북/용추폭포 유리전망대.jpg',
-                 './img/종혁/충북/비룡담저수지.jpg',
-                 './img/종혁/충북/제천 옥순봉 출렁다리.jpg',
-                 './img/종혁/충북/청풍호 관광모노레일.jpg']
+rec_place_img = ['img/종혁/충북/용추폭포 유리전망대.jpg',
+                 'img/종혁/충북/비룡담저수지.jpg',
+                 'img/종혁/충북/제천 옥순봉 출렁다리.jpg',
+                 'img/종혁/충북/청풍호 관광모노레일.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a place where you can walk while watching the cool water pouring under your feet, so you can relieve your stress by looking at the dizzying feeling of walking on a waterfall and the cool water pouring down.',
                'Jecheon Biryongdam Reservoir is also called the "magic castle" in the form of a secret castle surrounded by a forest.',
                'It is a suspension bridge where you can feel Oksunbong Peak, one of the 10 scenic views of Jecheon, with your whole body on the surface of Cheongpung Lake',
                'This modern monorail course, which takes 50 minutes round trip and has some steep sections, offers views of lakes, mountains, and forests.']
 # 관광지 Image
-image1 = './img/종혁/충북/의림지.jpg'
+image1 = 'img/종혁/충북/의림지.jpg'
 #Wordcloud
-image2 = './img/종혁/충북/의림지 워드클라우드.png'
+image2 = 'img/종혁/충북/의림지 워드클라우드.png'
 #파이차트 경로
-data = './data/충북/의림지.csv'
+data = 'data/충북/의림지.csv'
 #Positive 개수
 pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/충북/의림지 그래프.png'
+image3 = 'img/종혁/충북/의림지 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -243,10 +243,10 @@ rec_place = ['Glazed Cave',
              'Chungju Dam Observatory',
              'The Seven-story Stone Pagoda in Tappyeong-ri, Chungchu']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충북/충주 활옥동굴.jpg',
-                 './img/종혁/충북/탄금대.jpg',
-                 './img/종혁/충북/충주댐 전망대.jpg',
-                 './img/종혁/충북/충주 탑평리 칠층석탑.jpeg']
+rec_place_img = ['img/종혁/충북/충주 활옥동굴.jpg',
+                 'img/종혁/충북/탄금대.jpg',
+                 'img/종혁/충북/충주댐 전망대.jpg',
+                 'img/종혁/충북/충주 탑평리 칠층석탑.jpeg']
 #추천 장소 설명 4개
 rec_caption = ['It is the only talc mine in Korea developed in Japanese colonial era in 1922, with a record of 57 km and an informal 87 km, and a vertical underground height of 711 m, the largest in the East.',
                'Tangeumdae is a hill originally called Daecheongsan Mountain, but it has a very good view with the Namhangang River and dense pine forests that flow smoothly around the rocky cliffs.',
@@ -254,17 +254,17 @@ rec_caption = ['It is the only talc mine in Korea developed in Japanese colonial
                'It is believed to have been built during the Unified Silla Dynasty.']
 
 # 관광지 Image
-image1 = './img/종혁/충북/충주라바랜드.jpg'
+image1 = 'img/종혁/충북/충주라바랜드.jpg'
 #Wordcloud
-image2 = './img/종혁/충북/충주라바랜드 워드클라우드.png'
+image2 = 'img/종혁/충북/충주라바랜드 워드클라우드.png'
 #파이차트 경로
-data = './data/충북/충주라바랜드.csv'
+data = 'data/충북/충주라바랜드.csv'
 #Positive 개수
 pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/충북/충주라바랜드 그래프.png'
+image3 = 'img/종혁/충북/충주라바랜드 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -289,26 +289,26 @@ rec_place = ['Busodamak',
              "Yuk Young-soo's birthplace",
              'Daecheong Dam Observatory']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/충북/부소담악.jpg',
-                 './img/종혁/충북/장령산자연휴양림.jpg',
-                 './img/종혁/충북/육영수 생가.jpg',
-                 './img/종혁/충북/대청댐 전망대.jpg']
+rec_place_img = ['img/종혁/충북/부소담악.jpg',
+                 'img/종혁/충북/장령산자연휴양림.jpg',
+                 'img/종혁/충북/육영수 생가.jpg',
+                 'img/종혁/충북/대청댐 전망대.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a rocky cliff that rises above the water, and is 700m long.',
                'It is a famous mountain in Okcheon, which is famous for its beautiful natural scenery, and pine, maple, and cypress trees grow naturally.',
                'Hanok [Gyodongjip] in Gu-eup, Okcheon is the birthplace of First Lady Yuk Young-soo and the house where First Lady Yuk was born and raised.',
                'When you climb the observatory, you can see the clear Daecheong Lake, and when you enter the water promotion hall, there is a video facility that provides a clear view of water-related materials, dam construction, and various financial resources, serving as a water resource learning center.']
 # 관광지 Image
-image1 = './img/종혁/충북/수생식물학습원.jpg'
+image1 = 'img/종혁/충북/수생식물학습원.jpg'
 #Wordcloud
-image2 = './img/종혁/충북/수생식물학습원 워드클라우드.png'
+image2 = 'img/종혁/충북/수생식물학습원 워드클라우드.png'
 #파이차트 경로
-data = './data/충북/수생식물학습원.csv'
+data = 'data/충북/수생식물학습원.csv'
 #Positive 개수
 pos = 200
 #Negative 개수
 neg = 100
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/충북/수생식물학습원 그래프.png'
+image3 = 'img/종혁/충북/수생식물학습원 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

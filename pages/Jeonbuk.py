@@ -126,27 +126,27 @@ rec_place = ['Gyeonggijeon',
              'Omokdae',
              'Jaman Mural Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/전북/경기전.jpg',
-                 './img/종혁/전북/전주한옥마을.jpg',
-                 './img/종혁/전북/오목대.jpg',
-                 './img/종혁/전북/자만벽화마을.jpg']
+rec_place_img = ['img/종혁/전북/경기전.jpg',
+                 'img/종혁/전북/전주한옥마을.jpg',
+                 'img/종혁/전북/오목대.jpg',
+                 'img/종혁/전북/자만벽화마을.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Built in 1410, this famous temple has a museum featuring historical exhibits and portraits of kings.',
                'It is a cultural village with traditional hanok, calligraphy museum, and traditional liquor museum.',
                'There is a monument honoring Taejo Lee Seong-gye as an observation deck at the top of a hill overlooking Hanok Village.',
                'It is a village with various cartoon-style murals painted on houses and narrow alleys on the hill.']
 # 관광지 Image
-image1 = './img/종혁/전북/전주동물원.jpg'
+image1 = 'img/종혁/전북/전주동물원.jpg'
 #Wordcloud
-image2 = './img/종혁/전북/전주동물원 워드클라우드.png'
+image2 = 'img/종혁/전북/전주동물원 워드클라우드.png'
 #파이차트 경로
-data = './data/전북/전주동물원.csv'
+data = 'data/전북/전주동물원.csv'
 #Positive 개수
 pos = 105
 #Negative 개수
 neg = 51
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/전북/전주동물원 그래프.png'
+image3 = 'img/종혁/전북/전주동물원 그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos, neg, image3)
@@ -164,27 +164,27 @@ rec_place = ['Jeonju Hanok Village',
              'PungNamMun',
              'Jaman Mural Village']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/전북/전주한옥마을.jpg',
-                 './img/종혁/전북/오목대.jpg',
-                 './img/종혁/전북/풍남문.jpg',
-                 './img/종혁/전북/자만벽화마을.jpg']
+rec_place_img = ['img/종혁/전북/전주한옥마을.jpg',
+                 'img/종혁/전북/오목대.jpg',
+                 'img/종혁/전북/풍남문.jpg',
+                 'img/종혁/전북/자만벽화마을.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a cultural village with traditional hanok, calligraphy museum, and traditional liquor museum.',
                'There is a monument honoring Taejo Lee Seong-gye as an observation deck at the top of a hill overlooking Hanok Village.',
                'The south gate of the former Jeonju Eupseong in Jeonju-si, Jeonbuk Special Self-Governing Province. It was designated as a treasure on January 21, 1963.',
                'It is a village with various cartoon-style murals painted on houses and narrow alleys on the hill.']
 # 관광지 Image
-image1 = './img/종혁/전북/경기전.jpg'
+image1 = 'img/종혁/전북/경기전.jpg'
 #Wordcloud
-image2 = './img/종혁/전북/경기전 워드클라우드.png'
+image2 = 'img/종혁/전북/경기전 워드클라우드.png'
 #파이차트 경로
-data = './data/전북/경기전.csv'
+data = 'data/전북/경기전.csv'
 #Positive 개수
 pos = 102
 #Negative 개수
 neg = 49
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/전북/경기전 그래프.png'
+image3 = 'img/종혁/전북/경기전 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -201,27 +201,27 @@ rec_place = ['Gyeonggijeon',
              'Jaman Mural Village',
              'PungNamMun']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/전북/경기전.jpg',
-                 './img/종혁/전북/오목대.jpg',
-                 './img/종혁/전북/자만벽화마을.jpg',
-                 './img/종혁/전북/풍남문.jpg']
+rec_place_img = ['img/종혁/전북/경기전.jpg',
+                 'img/종혁/전북/오목대.jpg',
+                 'img/종혁/전북/자만벽화마을.jpg',
+                 'img/종혁/전북/풍남문.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Built in 1410, this famous temple has a museum featuring historical exhibits and portraits of kings.',
                'There is a monument honoring Taejo Lee Seong-gye as an observation deck at the top of a hill overlooking Hanok Village.',
                'It is a village with various cartoon-style murals painted on houses and narrow alleys on the hill.',
                'The south gate of the former Jeonju Eupseong in Jeonju-si, Jeonbuk Special Self-Governing Province. It was designated as a treasure on January 21, 1963.']
 # 관광지 Image
-image1 = './img/종혁/전북/전주한옥마을.jpg'
+image1 = 'img/종혁/전북/전주한옥마을.jpg'
 #Wordcloud
-image2 = './img/종혁/전북/전주한옥마을 워드클라우드.png'
+image2 = 'img/종혁/전북/전주한옥마을 워드클라우드.png'
 #파이차트 경로
-data = './data/전북/전주한옥마을.csv'
+data = 'data/전북/전주한옥마을.csv'
 #Positive 개수
 pos = 326
 #Negative 개수
 neg = 206
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/전북/전주한옥마을 그래프.png'
+image3 = 'img/종혁/전북/전주한옥마을 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -239,10 +239,10 @@ rec_place = ['Seonyudo Beach',
              'Zhangjia Island',
              'Gogunsan Islands']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/전북/선유도해수욕장.jpg',
-                 './img/종혁/전북/새만금방조제.webp',
-                 './img/종혁/전북/장자도.jpg',
-                 './img/종혁/전북/고군산군도.jpg']
+rec_place_img = ['img/종혁/전북/선유도해수욕장.jpg',
+                 'img/종혁/전북/새만금방조제.webp',
+                 'img/종혁/전북/장자도.jpg',
+                 'img/종혁/전북/고군산군도.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Seonyudo Beach is a natural coastal sand dune beach, and it is called Myeongsasimri Beach because of its wide range of transparent and beautiful white sand beaches like glass grains.',
                'It is the longest seawall in the world. It is 33.9 kilometers long in total, which is 1.4 kilometers longer than the 32.5 kilometers of the second-ranked Zawider seawall in the Netherlands.',
@@ -250,17 +250,17 @@ rec_caption = ['Seonyudo Beach is a natural coastal sand dune beach, and it is c
                "It's an archipelago where you can enjoy sand beaches, wooded trails, and boat trips through rock walls."]
 
 # 관광지 Image
-image1 = './img/종혁/전북/경암동철길마을.jpg'
+image1 = 'img/종혁/전북/경암동철길마을.jpg'
 #Wordcloud
-image2 = './img/종혁/전북/경암동철길마을 워드클라우드.png'
+image2 = 'img/종혁/전북/경암동철길마을 워드클라우드.png'
 #파이차트 경로
-data = './data/전북/경암동철길마을.csv'
+data = 'data/전북/경암동철길마을.csv'
 #Positive 개수
 pos = 132
 #Negative 개수
 neg = 105
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/전북/경암동철길마을 그래프.png'
+image3 = 'img/종혁/전북/경암동철길마을 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos, neg, image3)
 
@@ -278,26 +278,26 @@ rec_place = ['Daeah Arboretum',
              'Gyeonggijeon',
              'Jeonju Hyanggyo']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/종혁/전북/대아수목원.jpg',
-                 './img/종혁/전북/전주한옥마을.jpg',
-                 './img/종혁/전북/경기전.jpg',
-                 './img/종혁/전북/전주향교.jpg']
+rec_place_img = ['img/종혁/전북/대아수목원.jpg',
+                 'img/종혁/전북/전주한옥마을.jpg',
+                 'img/종혁/전북/경기전.jpg',
+                 'img/종혁/전북/전주향교.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a cozy resting place with a mineral spring, a shelter, an observatory, a forest data room, and a forest classroom.',
                'It is a cultural village with traditional hanok, calligraphy museum, and traditional liquor museum.',
                'Built in 1410, this famous temple has a museum featuring historical exhibits and portraits of kings.',
                'It is a Joseon-era educational facility with several buildings, surrounded by giant ginkgo trees.']
 # 관광지 Image
-image1 = './img/종혁/전북/한국도로공사 전주수목원.jpg'
+image1 = 'img/종혁/전북/한국도로공사 전주수목원.jpg'
 #Wordcloud
-image2 = './img/종혁/전북/한국도로공사 전주수목원 워드클라우드.png'
+image2 = 'img/종혁/전북/한국도로공사 전주수목원 워드클라우드.png'
 #파이차트 경로
-data = './data/전북/한국도로공사 전주수목원.csv'
+data = 'data/전북/한국도로공사 전주수목원.csv'
 #Positive 개수
 pos = 93
 #Negative 개수
 neg = 36
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/종혁/전북/한국도로공사 전주수목원 그래프.png'
+image3 = 'img/종혁/전북/한국도로공사 전주수목원 그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos, neg, image3)

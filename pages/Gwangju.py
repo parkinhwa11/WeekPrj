@@ -121,19 +121,19 @@ intro = '''In 1951, it was located in the city center due to the construction of
 #추천 장소 4곳
 rec_place = ['Gwangju Stream', 'Sangmu Food Alley', 'Ssangam Park', 'Food Specialty Street in Geumho-dong']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/광주천.jpg',
-                 './img/다율/상무지구.png',
-                 './img/다율/쌍암.jpg',
-                 './img/다율/금호먹거리촌.jpeg']
+rec_place_img = ['img/다율/광주천.jpg',
+                 'img/다율/상무지구.png',
+                 'img/다율/쌍암.jpg',
+                 'img/다율/금호먹거리촌.jpeg']
 #추천 장소 설명 4개
 rec_caption = ['Recently, Gwangju has become famous for its cherry blossom path, where cherry blossoms bloom first.',
                "Gwangju's culinary hub",
                'Nature and Culture in Gwangju',
                'A food-specialized street densely packed with restaurants located in Geumho-dong']
 # 관광지 Image
-image1 = './img/다율/운천저수지.jpg'
+image1 = 'img/다율/운천저수지.jpg'
 #Wordcloud
-image2 = './img/다율/운천저수지 워드클라우드.png'
+image2 = 'img/다율/운천저수지 워드클라우드.png'
 #파이차트 경로
 data = 'data/광주/운천저수지.csv'
 #Positive 개수
@@ -141,7 +141,7 @@ pos_cnt = 14
 #Negative 개수
 neg_cnt = 6
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/운천저수지그래프.png'
+image3 = 'img/다율/운천저수지그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -160,19 +160,19 @@ intro = '''Solomon Law Park is a theme park operated by the Ministry of Justice,
 rec_place = ['Bitgoeul Rural Theme Park', 'Gwangju Family Land',
              'May 18 Democracy Square', 'Gwangju Sajik Park']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/빛고을.jpg',
-                 './img/다율/패밀리랜드.jpeg',
-                 './img/다율/518-2.jpg',
-                 './img/다율/사직공원.jpg']
+rec_place_img = ['img/다율/빛고을.jpg',
+                 'img/다율/패밀리랜드.jpeg',
+                 'img/다율/518-2.jpg',
+                 'img/다율/사직공원.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A space designed to activate local tourism resources and provide relaxation.",
                'A dreamy amusement park filled with love.',
                'The symbol of the democratization movement in South Korea.',
                "A place where people prayed for the country's peace and prosperity."]
 # 관광지 Image
-image1 = './img/다율/솔로몬.jpg'
+image1 = 'img/다율/솔로몬.jpg'
 #Wordcloud
-image2 = './img/다율/광주솔로몬로파크 워드클라우드.png'
+image2 = 'img/다율/광주솔로몬로파크 워드클라우드.png'
 #파이차트 경로
 data = 'data/광주/광주솔로몬로파크.csv'
 #Positive 개수
@@ -180,7 +180,7 @@ pos_cnt = 14
 #Negative 개수
 neg_cnt = 6
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/광주솔로몬로파크그래프.png'
+image3 = 'img/다율/광주솔로몬로파크그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -203,19 +203,19 @@ intro = '''To use the lift and monorail located at Jisan Park in Gwangju, visito
 rec_place = ['Jisan Recreation Area', 'Mudeungsan Observation Deck',
              'Mudeungsan National Park', 'Mudeungsan Mountain']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/지산유원지.jpg',
-                 './img/다율/전망대.jpg',
-                 './img/다율/무등산국립공원.jpg',
-                 './img/다율/무등산.jpg']
+rec_place_img = ['img/다율/지산유원지.jpg',
+                 'img/다율/전망대.jpg',
+                 'img/다율/무등산국립공원.jpg',
+                 'img/다율/무등산.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Experience a unique thrill on Mt. Mudeung!',
                'Top attractions to fully experience and enjoy in Gwangju',
                'The backbone of the Honam region, spanning Gwangju and Jeollanam-do provinces.',
                'Mount Mudeung, where people of all ages can enjoy hiking comfortably without steep slopes.']
 # 관광지 Image
-image1 = './img/다율/무등산.jpg'
+image1 = 'img/다율/무등산.jpg'
 #Wordcloud
-image2 = './img/다율/무등산 리프트&모노레일 워드클라우드.png'
+image2 = 'img/다율/무등산 리프트&모노레일 워드클라우드.png'
 #파이차트 경로
 data = 'data/광주/무등산 리프트&모노레일.csv'
 #Positive 개수
@@ -223,7 +223,7 @@ pos_cnt = 25
 #Negative 개수
 neg_cnt = 24
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/무등산그래프.png'
+image3 = 'img/다율/무등산그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -241,19 +241,19 @@ intro = '''Gwangju Metropolitan Forest is a park located in Dodong-dong, Nam-gu,
 #추천 장소 4곳
 rec_place = ['Donggul Cave ', 'Penguin Village Craft Street ', 'Wonyeo Valley', 'Pochung Temple']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/뒹굴동굴.jpg',
-                 './img/다율/펭귄마을.jpg',
-                 './img/다율/원효계곡.jpg',
-                 './img/다율/포충사.jpg']
+rec_place_img = ['img/다율/뒹굴동굴.jpg',
+                 'img/다율/펭귄마을.jpg',
+                 'img/다율/원효계곡.jpg',
+                 'img/다율/포충사.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Japanese colonial-era anti-communist bunkers now historic landmarks.',
                'Retro-themed craft culture experiential tourism site.',
                "Gwangju's top summer retreat: Mt. Mudeung's lush forests and clear streams.",
                'Memorial for Gu Gyeong-myeong, a guerrilla leader who fought in the Battle of Geumsan.']
 # 관광지 Image
-image1 = './img/다율/시립수목원.jpeg'
+image1 = 'img/다율/시립수목원.jpeg'
 #Wordcloud
-image2 = './img/다율/광주광역시립수목원 워드클라우드.png'
+image2 = 'img/다율/광주광역시립수목원 워드클라우드.png'
 #파이차트 경로
 data = 'data/광주/광주광역시립수목원.csv'
 #Positive 개수
@@ -261,7 +261,7 @@ pos_cnt = 23
 #Negative 개수
 neg_cnt = 9
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/광주광역시립수목원그래프.png'
+image3 = 'img/다율/광주광역시립수목원그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -279,19 +279,19 @@ intro = '''It is an indoor exotic zoo, housing over 50 small animals including c
 #추천 장소 4곳
 rec_place = ['Uchi Zoo Park', 'Gwangju Art Street', 'Aqua City', 'Jungmeorijae Pass']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['./img/다율/우치공원.jpg',
-                 './img/다율/예술의거리.jpg',
-                 './img/다율/아쿠아시티.jpg',
-                 './img/다율/중머리재.jpeg']
+rec_place_img = ['img/다율/우치공원.jpg',
+                 'img/다율/예술의거리.jpg',
+                 'img/다율/아쿠아시티.jpg',
+                 'img/다율/중머리재.jpeg']
 #추천 장소 설명 4개
 rec_caption = ['A place of dreams, hope, and beautiful memories.',
                "Gwangju's cultural street, embracing the arts.",
                'Water play and maritime safety learning hub.',
                "The vast grassy field, dubbed 'Middle Hairline Peak (Seungdubong),' resembles a monk's head."]
 # 관광지 Image
-image1 = './img/다율/헬로애니멀2.jpg'
+image1 = 'img/다율/헬로애니멀2.jpg'
 #Wordcloud
-image2 = './img/다율/헬로애니멀 광주점 워드클라우드.png'
+image2 = 'img/다율/헬로애니멀 광주점 워드클라우드.png'
 #파이차트 경로
 data = 'data/광주/헬로애니멀 광주점.csv'
 #Positive 개수
@@ -299,6 +299,6 @@ pos_cnt = 7
 #Negative 개수
 neg_cnt = 6
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/헬로애니멀그래프.png'
+image3 = 'img/다율/헬로애니멀그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)

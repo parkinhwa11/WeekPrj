@@ -123,27 +123,27 @@ intro = '''Nestled in Gangneung, Gangwon Province, Anmok Beach is a serene getaw
 #추천 장소 4곳
 rec_place = ['Gangneung Coffee Street', 'Gyeongpo Beach', 'Sageunjin Beach', 'Gangmun Beach']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/커피거리.png',
-                 './img/다율/경포해수욕장.jpg',
-                 './img/다율/사근진해수욕장.png',
-                 './img/다율/강문해변.jpg']
+rec_place_img = ['img/다율/커피거리.png',
+                 'img/다율/경포해수욕장.jpg',
+                 'img/다율/사근진해수욕장.png',
+                 'img/다율/강문해변.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Enjoy coffee with a beautiful beach view.',
                'A place of beauty where lush pine forests meet the beach in harmony.',
                'A cozy beach shaded by lush pine forests.',
                'A pet-friendly beach where you can run along the white sandy shore.']
 # 관광지 Image
-image1 = './img/다율/안목해변.png'
+image1 = 'img/다율/안목해변.png'
 #Wordcloud
-image2 = './img/다율/안목해변 워드클라우드.png'
+image2 = 'img/다율/안목해변 워드클라우드.png'
 #파이차트 경로
-data = './data/강원/안목해변.csv'
+data = 'data/강원/안목해변.csv'
 #Positive 개수
 pos_cnt = 12
 #Negative 개수
 neg_cnt= 3
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/안목해변그래프.png'
+image3 = 'img/다율/안목해변그래프.png'
 
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab1, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
@@ -163,19 +163,19 @@ intro = '''Nami Island, with the concept of “Fairy Tale Village and Song Villa
 #추천 장소 4곳
 rec_place = ['Myeongdong Dakgalbi Street', 'Soyanggang Skywalk', 'Jade Garden', 'Alpaca World']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/명동닭갈비골목.jpg',
-                 './img/다율/소양강스카이워크.jpg',
-                 './img/다율/제이드가든.jpg',
-                 './img/다율/알파카월드.jpg']
+rec_place_img = ['img/다율/명동닭갈비골목.jpg',
+                 'img/다율/소양강스카이워크.jpg',
+                 'img/다율/제이드가든.jpg',
+                 'img/다율/알파카월드.jpg']
 #추천 장소 설명 4개
 rec_caption = ["The representative Dakgalbi alley in Chuncheon.",
                'A skywalk with thrilling heights and stunning multicolored lighting.',
                'A small piece of Europe in the midst of the forest, boasting a botanical garden.',
                'Cute animals beside more cute animals.']
 # 관광지 Image
-image1 = './img/다율/남이섬2.jpg'
+image1 = 'img/다율/남이섬2.jpg'
 #Wordcloud
-image2 = './img/다율/남이섬 워드클라우드.png'
+image2 = 'img/다율/남이섬 워드클라우드.png'
 #파이차트 경로
 data = 'data/강원/남이섬.csv'
 #Positive 개수
@@ -183,7 +183,7 @@ pos_cnt = 13
 #Negative 개수
 neg_cnt = 17
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/남이섬그래프.png'
+image3 = 'img/다율/남이섬그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab2, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -203,19 +203,19 @@ intro = '''Ojukheon House was where Yi I (penname Yulgok; scholar and politician
 #추천 장소 4곳
 rec_place = ['Seongyojang House', 'Songjeong Beach', 'Jumunjin Breakwater', 'Jeongdongsimgok Badabuchae Trail']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/선교장.jpeg',
-                 './img/다율/송정해변.jpg',
-                 './img/다율/주문진방파제.jpg',
-                 './img/다율/정동심곡.jpg']
+rec_place_img = ['img/다율/선교장.jpeg',
+                 'img/다율/송정해변.jpg',
+                 'img/다율/주문진방파제.jpg',
+                 'img/다율/정동심곡.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Dignified houses with a 300-year-old tradition.',
                'A beautiful beach with silver-white sands stretching wide along the expansive sea.',
                "The Jumunjin Breakwater, famous as a filming location for the drama 'Goblin'",
                "Cheongdongjin Trail, Preserving Nature's Splendor"]
 # 관광지 Image
-image1 = './img/다율/오죽헌.jpg'
+image1 = 'img/다율/오죽헌.jpg'
 #Wordcloud
-image2 = './img/다율/오죽헌 워드클라우드.png'
+image2 = 'img/다율/오죽헌 워드클라우드.png'
 #파이차트 경로
 data = 'data/강원/오죽헌.csv'
 #Positive 개수
@@ -223,7 +223,7 @@ pos_cnt = 6
 #Negative 개수
 neg_cnt = 3
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/오죽헌그래프.png'
+image3 = 'img/다율/오죽헌그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab3, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -242,19 +242,19 @@ intro = '''Sokcho Eye is the only observation wheel located on a beach in South 
 #추천 장소 4곳
 rec_place = ['Yeonggeumjeong ', 'Yeongnangho Lake', 'Oeongchi Badahyanggiro Trail', 'Cheoksan Spatel ']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['./img/다율/영금정.jpeg',
-                 './img/다율/영랑호.jpg',
-                 './img/다율/외옹치.jpg',
-                 './img/다율/척산온천.jpg']
+rec_place_img = ['img/다율/영금정.jpeg',
+                 'img/다율/영랑호.jpg',
+                 'img/다율/외옹치.jpg',
+                 'img/다율/척산온천.jpg']
 #추천 장소 설명 4개
 rec_caption = ['Beach views from pavilion at end of cliff bridge',
                'Scenic lake with stunning views',
                'Enjoying the beachside path with light and dynamic activities',
                'A place to unwind from travel fatigue and also take care of your health']
 # 관광지 Image
-image1 = './img/다율/속초아이.jpg'
+image1 = 'img/다율/속초아이.jpg'
 #Wordcloud
-image2 = './img/다율/속초아이 워드클라우드.png'
+image2 = 'img/다율/속초아이 워드클라우드.png'
 #파이차트 경로
 data = 'data/강원/속초아이.csv'
 #Positive 개수
@@ -262,7 +262,7 @@ pos_cnt = 59
 #Negative 개수
 neg_cnt = 28
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/속초아이그래프.png'
+image3 = 'img/다율/속초아이그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab4, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
 
@@ -281,19 +281,19 @@ intro = '''Haslla Art World is an art space that harmonizes nature, people and a
 #추천 장소 4곳
 rec_place = ['Jeongdongjin Beach', 'Mangsang Beach', 'Samcheok Beach', 'Sokcho Beach']
 #추천 장소 이미지 경로 4개정동진해변
-rec_place_img = ['./img/다율/정동진.jpg',
-                 './img/다율/망상해변.jpg',
-                 './img/다율/삼척해변.jpg',
-                 './img/다율/속초해수욕장.png']
+rec_place_img = ['img/다율/정동진.jpg',
+                 'img/다율/망상해변.jpg',
+                 'img/다율/삼척해변.jpg',
+                 'img/다율/속초해수욕장.png']
 #추천 장소 설명 4개
 rec_caption = ['The beach with the closest makeshift station to the sea in the world.',
                'A pristine white sandy beach and azure blue waters.',
                'A great place with expansive sandy beaches and lush pine forests.',
                'Sokcho Beach, beloved by vacationers.']
 # 관광지 Image
-image1 = './img/다율/하슬라.jpg'
+image1 = 'img/다율/하슬라.jpg'
 #Wordcloud
-image2 = './img/다율/하슬라아트월드 워드클라우드.png'
+image2 = 'img/다율/하슬라아트월드 워드클라우드.png'
 #파이차트 경로
 data = 'data/강원/하슬라아트월드.csv'
 #Positive 개수
@@ -301,6 +301,6 @@ pos_cnt = 43
 #Negative 개수
 neg_cnt = 19
 #Bigram NetworkX Graph 이미지 첨부
-image3 = './img/다율/하슬라아트월드그래프.png'
+image3 = 'img/다율/하슬라아트월드그래프.png'
 #tabnum만 바꿔주기 (tab1, tab2, tab3, tab4, tab5)
 tabs(tab5, name, googlelink, intro, image1, image2, data, pos_cnt, neg_cnt, image3)
