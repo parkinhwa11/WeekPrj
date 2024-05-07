@@ -206,7 +206,7 @@ rec_place = ['Yongchu Falls Glass Observatory',
 rec_place_img = ['img/jongheok/충북/용추폭포 유리전망대.jpg',
                  'img/jongheok/충북/비룡담저수지.jpg',
                  'img/jongheok/충북/제천옥순봉출렁다리.jpg',
-                 'img/jongheok/충북/청풍호관광모노레일.jpg']
+                 'img/jongheok/충북/청풍호모노레일.jpg']
 #추천 장소 설명 4개
 rec_caption = ['It is a place where you can walk while watching the cool water pouring under your feet, so you can relieve your stress by looking at the dizzying feeling of walking on a waterfall and the cool water pouring down.',
                'Jecheon Biryongdam Reservoir is also called the "magic castle" in the form of a secret castle surrounded by a forest.',
