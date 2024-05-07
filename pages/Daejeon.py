@@ -241,7 +241,7 @@ intro = '''The National Daejeon Forest Wellness Center, a leading forest welfare
 #추천 장소 4곳
 rec_place = ['Bomunsan Forest Healing Center', 'Healing Forest', 'Palgong Reservoir', 'Gyeryongsan Sutonggol Valley']
 #추천 장소 이미지 경로 4개
-rec_place_img = ['img/dayul/bonmunsansupkil.jpg', 'img/dayul/supofheal.jpg', 'img/dayul/palgongjeosuji.jpg', 'img/dayul/계령산.jpg']
+rec_place_img = ['img/dayul/bonmunsansupkil.jpg', 'img/dayul/supofheal.jpg', 'img/dayul/palgongjeosuji.jpg', 'img/dayul/계룡산.jpg']
 #추천 장소 설명 4개
 rec_caption = ["Experience nature's positive energy and heal both body and mind through forest therapy.",
                "A healing sanctuary for body and mind, nestled in nature.",
