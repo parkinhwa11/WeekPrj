@@ -219,7 +219,7 @@ intro = '''Dadaepo Beach is made from sands deposited by the Nakdonggang River. 
 rec_place = ['Morundae', 'Amisan Observatory', 'Haeundae Beach', 'Gamcheon Culture Villiage']
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/수정/몰운대.jpeg',
-                 'img/수정/아미산전망대.bmp',
+                 'img/수정/아미산전망대.png',
                  'img/수정/해운대해수욕장.jpeg',
                  'img/수정/감천문화마을.jpeg']
 #추천 장소 설명 4개
