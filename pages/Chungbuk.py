@@ -125,7 +125,7 @@ rec_place = ['Munji Cultural Heritage Complex',
              'Seongan-gil']
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/jongheok/충북/문의문화재단지.jpg',
-                 'img/jongheok/충북/대청댐 jeonmangdae.jpg',
+                 'img/jongheok/충북/대청댐 전망대.jpg',
                  'img/jongheok/충북/미동산수목원.jpg',
                  'img/jongheok/충북/성안길.jpg']
 #추천 장소 설명 4개
