@@ -161,9 +161,9 @@ rec_place = ['Bitgoeul Rural Theme Park', 'Gwangju Family Land',
              'May 18 Democracy Square', 'Gwangju Sajik Park']
 #추천 장소 이미지 경로 4개
 rec_place_img = ['img/dayul/빛고을.jpg',
-                 'img/dayul/familyland.jpeg',
-                 'img/dayul/518-2.jpg',
-                 'img/dayul/sajikpark.jpg']
+                 'img/dayul/패밀리랜드.jpg',
+                 'img/dayul/오일팔.jpg',
+                 'img/dayul/광주사직.jpg']
 #추천 장소 설명 4개
 rec_caption = ["A space designed to activate local tourism resources and provide relaxation.",
                'A dreamy amusement park filled with love.',
