@@ -168,7 +168,7 @@ rec_caption = [dict1['조치원테마거리'][2], dict1['금강수목원'][2], d
 # 관광지 Image 1
 image1 = 'img/sujeong/도도리파크.jpeg'
 #Wordcloud Image 2
-image2 = 'img/sujeong/세종/도도리파크 워드클라우드.png'
+image2 = 'img/sujeong/세종/도도리파크 워드클라우드.png'
 #파이차트 경로
 data = 'data/세종/도도리파크.csv'
 #Positive 개수
