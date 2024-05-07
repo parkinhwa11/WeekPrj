@@ -126,7 +126,7 @@ rec_caption = ['Songjeong Beach is ideal for families with young children becaus
 # 관광지 Image
 image1 = 'img/sujeong/광안리해수욕장.jpeg'
 #Wordcloud
-image2 = 'img/sujeong/부산/광안리해수욕장 워드클라우드.png'
+image2 = 'img/sujeong/부산/광안리해수욕장 워드클라우드.png'
 #파이차트 경로
 data = 'data/부산/광안리해수욕장.csv'
 #Positive 개수
