@@ -121,13 +121,8 @@ if selected_city:
     elif selected_city in locs:
         df = df[df['지자체'].str.contains(kor[selected_city][0])]
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=kor[selected_city][1])
-        key = 'F5F9EB65-7EB2-3029-AAA6-9A42370296AE'
-        layer = 'gray'
-        tile_type = 'png'
-        tiles = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
-        attr = 'VWorld'
-        # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-        # attr='Stadia Maps'
+        tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+        attr='Stadia Maps'
         my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level,
                             tiles=tiles,
                             attr=attr
