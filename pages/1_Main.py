@@ -121,7 +121,7 @@ if selected_city:
     elif selected_city in locs:
         df = df[df['지자체'].str.contains(kor[selected_city][0])]
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=kor[selected_city][1])
-        layer = 'm'
+        layer = 'y'
         tiles = f'http://mt0.google.com/vt/lyrs={layer}&hl=ko&x={{x}}&y={{y}}&z={{z}}'
         attr = 'Google'
         # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
