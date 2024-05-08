@@ -36,7 +36,7 @@ locs = {
     'Jeju' : [33.364805, 126.542671]}
 
 kor = { 'Seoul' : ['서울', 11], 'Incheon' : ['인천', 11],
-    'Gwangju' : ['광주', 11], 'Daegu' : ['daegu', 11],
+    'Gwangju' : ['광주', 11], 'Daegu' : ['대구', 11],
     'Ulsan' : ['울산', 11], 'Daejeon' : ['대전', 11],
     'Busan' : ['부산', 11], 'Gyeonggi-do' : ['경기도', 9],
     'Sejong': ['세종', 11], 'Gangwon' : ['강원', 9],
@@ -95,21 +95,10 @@ df_loc.columns = ['lat', 'lon']
 if selected_city:
     if selected_city == 'Korea':
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=7)
-        key = 'F5F9EB65-7EB2-3029-AAA6-9A42370296AE'
-        # layer = 'Satellite'
-        # tile_type = 'jpeg'
-        # tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
-        attr = 'VWorld'
-        layer = 'Base'
-        tile_type = 'png'
-        tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
-
-        my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level
-                            # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-                            # attr='Stadia Maps'
+        my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level,
+                            tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+                            attr='Stadia Maps'
                             )
-        folium.TileLayer(tiles=tile_url,
-                         attr=attr).add_to(my_map)
         marker_cluster = MarkerCluster().add_to(my_map)
         for name, lat2, lon2 in zip(df['관광지'], df['위도'], df['경도']):
             folium.Marker([lat2, lon2],
@@ -121,11 +110,9 @@ if selected_city:
     elif selected_city in locs:
         df = df[df['지자체'].str.contains(kor[selected_city][0])]
         zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=20, value=kor[selected_city][1])
-        tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
-        attr='Stadia Maps'
         my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level,
-                            tiles=tiles,
-                            attr=attr
+                            tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+                            attr='Stadia Maps'
                             )
         for name, lat2, lon2 in zip(df['관광지'], df['위도'], df['경도']):
             folium.Marker([lat2, lon2],
@@ -136,5 +123,4 @@ if selected_city:
 
     minimap = MiniMap(width=100, height=100)
     minimap.add_to(my_map)
-
     folium_static(my_map, width=1000, height=800)
