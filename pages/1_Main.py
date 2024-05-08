@@ -99,11 +99,14 @@ if selected_city:
         # layer = 'Satellite'
         # tile_type = 'jpeg'
         # tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
-        attr = 'VWorld'
-        layer = 'Base'
+        # attr = 'VWorld'
+        # layer = 'Base'
+        # tile_type = 'png'
+        # tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
+        layer = 'osm_bright'
         tile_type = 'png'
-        tile_url = f'https://api.vworld.kr/req/wmts/1.0.0/{key}/{layer}/{{z}}/{{y}}/{{x}}.{tile_type}'
-
+        tile_url = f'https://tiles.stadiamaps.com/tiles/{layer}/{{z}}/{{x}}/{{y}}{{r}}.{tile_type}'
+        attr = 'Stadia Maps'
         my_map = folium.Map(location=df_loc.loc[selected_city], zoom_start=zoom_level
                             # tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
                             # attr='Stadia Maps'
